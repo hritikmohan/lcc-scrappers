@@ -142,6 +142,7 @@ const getPnrDetails = async (req, res) => {
       data: finalResponse,
     });
 
+    
     console.log(`\n${file}===== All 5 requests completed successfully =====`);
   } catch (error) {
     console.error(`\n${file}[Final Error]`, error.message);
