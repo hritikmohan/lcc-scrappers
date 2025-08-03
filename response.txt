@@ -1,0 +1,1760 @@
+
+<!DOCTYPE HTML>
+<html lang="en" class="skyplus-indigo-global-wrapper-v1">
+    <head>
+    
+    
+    
+
+
+	<meta charset="UTF-8"/>
+    <title>Itinerary</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+	<script>
+		function _getUrlParameter (name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        if(location && location.pathname && location.pathname.indexOf('itinerary') > -1){
+            var titleTag = "";
+            if(document.getElementsByTagName("title")){
+                titleTag = document.getElementsByTagName("title");
+            }
+            if(_getUrlParameter('isBookingFlow') == 1 && titleTag){
+                titleTag[0].text = "Flight Itinerary";
+            }else{
+                titleTag[0].text = "Modify Itinerary";
+            }
+        }
+	</script>
+
+	<meta name="template" content="page-content"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	
+    <meta name="robots" content="noindex, nofollow"/>
+    
+    
+    <meta property="og:title" content="Itinerary"/>
+	<meta property="og:description"/>
+	<meta property="og:url" content="https://www.goindigo.in/bookings/itinerary.html"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:image"/>
+	<meta property="og:locale" content="en"/>
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:site" content="@IndiGo6E"/>
+	<meta name="twitter:title" content="Itinerary"/>
+	<meta name="twitter:description" content=" "/>
+	<meta name="twitter:image"/>
+	
+    <link rel="canonical" href="https://www.goindigo.in/bookings/itinerary.html"/>
+    
+   	
+    
+
+
+	<!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-K5CJXLR');</script> <!-- End Google Tag Manager -->
+
+
+
+
+
+    
+    
+    
+
+    
+
+    
+
+
+        <script type="text/javascript" src="//assets.adobedtm.com/0e123c966ba7/27d4a2d39805/launch-bd87c24db4fb.min.js" async></script>
+
+
+    
+    
+    
+    
+
+    
+
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/skyplus6e/clientlibs/clientlib-base.min.623d995eb10387e8375c6af69b153ad7.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/skyplus6e/clientlibs/clientlib-site.min.0848a6448e9cedc4d2e0ced14ec99c12.css" type="text/css">
+
+
+
+
+
+
+
+    
+    
+    <link rel="icon" type="image/png" href="/content/dam/skyplus6e/in/en/assets/global/images/icons/favicon.png"/>
+
+	<script>
+        (function(winObj){
+            if (window.top.location.href.indexOf('/editor.html') == -1) {
+                winObj["locale"] = "en";
+                winObj["pageType"] = "itinerary";
+                winObj["isDynamicPage"] = true;
+                winObj["persona"] = "";
+                winObj["defaultLoginOpen"] = false;
+                winObj["disableDirectAccess"] = false;
+            }
+        })(window)
+    </script>
+    
+    <style>
+        .bg-theme-blue {
+            opacity: 1;
+            --primaryColor: #027bff;
+            --primaryTextColor: #FFFFFF;
+            background: -webkit-gradient(linear,left top,left bottom,from(#2668f7),color-stop(91%,#183060)) fixed;
+            background: linear-gradient(180deg,#2668f7 0,#183060 91%) fixed;
+        }
+    </style>
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"true","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-f2c17312-bcf0-4d6c-b04c-1d86dc58f115","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"true","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="BEZ6B-JYQYU-7BQYU-KS7TK-7PGGC",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"BEZ6B-JYQYU-7BQYU-KS7TK-7PGGC",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e="true"=="true"?1:0,t="",n="eqcqeakafaqbajafaiabmbaaabui7hq5-f-d8978c6e9-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"39","ak.cp":"1453120","ak.ai":parseInt("600879",10),"ak.ol":"0","ak.cr":4,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"8374fe5","ak.r":28661,"ak.a2":e,"ak.m":"dscr","ak.n":"ff","ak.bpcip":"2405:201:4028:2010::","ak.cport":35922,"ak.gh":"49.44.50.71","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1754242589","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==FwqGKT+gmikjI92vorsb6lnDL1BWT1dPVE0aS/wo1mHBbYhkwtr3fHN+MWVG073nzYkdR/vm4sTYel8yaXNXcZ3H9xa4sAkR5Z8g55vUZlNC4nk0iElt8InD0F4X0rFO/w7WrtVS33yWSEhiXMDdZ0MHJjJtZAwtV84laJyPWwuWr97Gdoyw7fQiVlj/iv7qiIC88yKkZ5HQO2LvzDBbHo5dJlU0dcTekZ0ilSbS9C7PA36PVMcWp7nXp+U6z1iMcWfGizhVI0klxeFGgEIkkZFkSrnE2q6Z4mVCm7i+EWg25I0Z1pRf5JhOjH/xE1pdcvQM0JBLBgqLk/AsXIS0MMd6X9yOSfQG49yjx4jUD74E2ooaP9H+aR6vIe1D1Q4zVS8qie9MsiOylbME7t1k9Q0GESmGONRjgyS7LvKkohc=","ak.pv":"421","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script><script nonce="06d26cc2f43030c9137026de9dc2edb3">bazadebezolkohpepadr="1254384872"</script><script type="text/javascript" src="https://www.goindigo.in/akam/13/4ac46524" nonce="06d26cc2f43030c9137026de9dc2edb3" defer></script></head>
+    <body class="page basepage basicpage bg-theme-white header-theme-blue" id="page-1be3a5abf2">
+
+    
+	    <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5CJXLR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
+    
+
+	<!--  <script data-sly-test.dataLayerEnabled="">
+          window.adobeDataLayer = window.adobeDataLayer || [];
+          adobeDataLayer.push({
+              page: JSON.parse(""),
+              event:'cmp:show',
+              eventInfo: {
+                  path: 'page.page\u002D1be3a5abf2'
+              }
+          });
+        </script>-->
+	
+        
+            
+
+
+
+
+            
+
+
+<main id="skyplus6e-main-content"><div class="root container responsivegrid">
+
+    
+    <div id="container-63dde2d5bb" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="infobanner aem-GridColumn aem-GridColumn--default--12">
+	
+
+
+
+    
+</div>
+<div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-experiencefragment cmp-experiencefragment--Member"><!-- SDI include (path: /content/experience-fragments/skyplus6e/in/en/header/Member/master/_jcr_content.content.sharedcontent.html, resourceType: skyplus6e/components/structure/xfpage) -->
+
+
+
+    
+    <div id="container-ea58b5f6b3" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="header aem-GridColumn aem-GridColumn--default--12">
+
+<!--<div data-component="react-login"></div>-->
+<div class="skyplus-indigo-global-wrapper-v1">
+    <header class="skyplus6e-header" id="skyplus6e-header" data-component="header" data-homepagepath="/content/skyplus6e/in/en/home/homepage.html">
+        <div class="skyplus6e-header__container">
+            <div class="skyplus6e-header__overlay"></div>
+            <div class="skyplus6e-header__overlay-menu"></div>
+            <div class="skyplus6e-header__overlay-hamburger"></div>
+            <div class="skyplus6e-header__hamburger-wrapper">
+                <button class="skyplus6e-header__back-button skyplus6e-header__back-button--displaynone" aria-label="Go back" id="skyplus6e-header-backbutton">
+                    <i class="indigoIcon indigoIcon-caret-left"></i>
+                </button>
+                <button class="skyplus6e-header__hamburger-button" aria-label="Open hamburger menu">
+                    <i class="icon-hamburger"></i>
+                </button>
+                <div class="skyplus6e-header__logo" id="skyplus6e-header__logo">
+                    <a href="/?linkNav=Logo%7C%7CHeader" aria-label="Indigo"> <img src="/content/dam/skyplus6e/in/en/assets/homepage/images/logo/icIndigoLogoWhiteR-new.svg" aria-hidden="true" alt="Indigo" class="skyplus6e-header__indigo-logo-img" fetchpriority="high"/>
+                    </a>
+                </div>
+                
+                
+            </div>
+            
+            <div class="skyplus6e-header__right-section">
+                <button class="skyplus6e-header__menu-open" aria-label="Open navigation menu">
+                    <span aria-hidden="true">Menu</span> <i class="icon-arrow"></i>
+                </button>
+                <div class="skyplus6e-header__homepage-nav-options">
+                    <button class="skyplus6e-header__menu-close" aria-label="Close navigation menu">
+                        <i class="icon-cross"></i>
+                    </button>
+                    <nav class="skyplus6e-header__nav" aria-label="Main nav links">
+
+                        <ul class="skyplus6e-header__nav-items">
+                            
+                            
+                                
+                                <li class="skyplus6e-header__nav-item link-bothuser  ">
+                                    <a style="background-color: " href="/web-check-in.html?linkNav=Check-in%7C%7CHeader%20Menu" target="_self" class="skyplus6e-header__link-common">
+                                        <span>Check-in</span>
+                                    </a></li>
+
+                            
+                                
+                                    <li class="skyplus6e-header__nav-item link-bothuser"><a style="background-color: " class="skyplus6e-header__link-no-mobile" target="_self" data-noclick="true"> <span>Manage</span>
+                                        <i class="icon-arrow"></i>
+                                    </a> <a class="skyplus6e-header__link-mobile" target="_self" data-noclick="true"> <span>Manage</span>
+                                        <i class="icon-arrow"></i>
+                                    </a>
+                                        <div class="skyplus6e-header__nav-inner-wrapper">
+                                            <ul class="skyplus6e-header__nav-items-inner">
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/edit-booking.html?linkNav=Edit%20Booking%7CManage%7CHeader%20Menu" target="_self">Edit Booking</a>
+                                                        </li>
+
+                                                    
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/change-flight.html?linkNav=Change%20Flight%7CManage%7CHeader%20Menu" target="_self">Change Flight</a>
+                                                        </li>
+
+                                                    
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/print-baggage-tags.html?linkNav=Baggage%20Tag%7CManage%7CHeader%20Menu" target="_self">Baggage Tag</a>
+                                                        </li>
+
+                                                    
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/plan-b.html?linkNav=Plan%20B%7CManage%7CHeader%20Menu" target="_self">Plan B</a>
+                                                        </li>
+
+                                                    
+                                                
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                
+                                
+
+                            
+                                
+                                <li class="skyplus6e-header__nav-item link-bothuser  ">
+                                    <a style="background-color: " href="/6e-rewards.html?linkNav=6E%20Rewards%7C%7CHeader%20Menu" target="_self" class="skyplus6e-header__link-common">
+                                        <span>6E Rewards</span>
+                                    </a></li>
+
+                            
+                                
+                                    <li class="skyplus6e-header__nav-item link-bothuser"><a style="background-color: " class="skyplus6e-header__link-no-mobile" target="_self" data-noclick="true"> <span>Info</span>
+                                        <i class="icon-arrow"></i>
+                                    </a> <a class="skyplus6e-header__link-mobile" target="_self" data-noclick="true"> <span>Info</span>
+                                        <i class="icon-arrow"></i>
+                                    </a>
+                                        <div class="skyplus6e-header__nav-inner-wrapper">
+                                            <ul class="skyplus6e-header__nav-items-inner">
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/destinations.html?linkNav=Destination%7CInfo%7CHeader%20Menu" target="_self">Destination</a>
+                                                        </li>
+
+                                                    
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/check-flight-status.html?linkNav=Flight%20Status%7CInfo%7CHeader%20Menu" target="_self">Flight Status</a>
+                                                        </li>
+
+                                                    
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="https://cargo.goindigo.in/" target="_self">Cargo Services</a>
+                                                        </li>
+
+                                                    
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/information/conditions-of-carriage.html?linkNav=Conditions%20of%20Carriage%7CInfo%7CHeader%20Menu" target="_self">Conditions of Carriage</a>
+                                                        </li>
+
+                                                    
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/information/fees-and-charges.html?linkNav=Fees%20%26%20Charges%7CInfo%7CHeader%20Menu" target="_self">Fees &amp; Charges</a>
+                                                        </li>
+
+                                                    
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/add-on-services.html?linkNav=Add-ons%20%26%20Services%7CInfo%7CHeader%20Menu" target="_self">Add-ons &amp; Services</a>
+                                                        </li>
+
+                                                    
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/baggage.html?linkNav=Baggage%7CInfo%7CHeader%20Menu" target="_self">Baggage</a>
+                                                        </li>
+
+                                                    
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/information/corona-virus-travel-restrictions.html?linkNav=COVID-19%20queries%7CInfo%7CHeader%20Menu" target="_self">COVID-19 queries</a>
+                                                        </li>
+
+                                                    
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/travel-information/en.html?linkNav=FAQs%7CInfo%7CHeader%20Menu" target="_self">FAQs</a>
+                                                        </li>
+
+                                                    
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/information.html?linkNav=Additional%20Info%7CInfo%7CHeader%20Menu" target="_self">Additional Info</a>
+                                                        </li>
+
+                                                    
+                                                
+                                                    
+                                                        <li class="skyplus6e-header__nav-item-inner link-bothuser">
+                                                            <a href="/contact-us.html?linkNav=Contact%20Us%7CInfo%7CHeader%20Menu" target="_self">Contact Us</a>
+                                                        </li>
+
+                                                    
+                                                
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                
+                                
+
+                            
+
+                            <li class="skyplus6e-header__nav-item">
+                                <!-- Login navigation react container -->
+                                
+
+    
+    <div id="container-cd1d2481d1" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="dynamiccontainer aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+
+
+<style>
+ .placeholder-mf-white .mf-booking-widget- {
+    background-color: #fff;
+ }
+
+ .mf-booking-widget- {
+ height: 100%;
+ background-size: 96% 100%,cover;
+ background-position-x: 9px;
+ background-repeat: no-repeat;
+ }
+ @media screen and (min-width: 769px) {
+ .mf-booking-widget- {
+ margin: 0 16px;
+ background-size: 95% 98%,cover;
+ max-width: 992px;
+ }
+ }
+ @media screen and (min-width: 1024px) {
+ .mf-booking-widget- {
+ margin: 0 auto;
+ background-size: 99% 97%,cover;
+ max-width: 1120px;
+ }
+ }
+ .login-navigation-dynamic-itinerary {
+ background-image: url('');
+ }
+ @media screen and (min-width: 769px) {
+ .login-navigation-dynamic-itinerary {
+ background-image: url('');
+ }
+ }
+ @media screen and (min-width: 1024px) {
+ .login-navigation-dynamic-itinerary {
+ background-image: url('');
+ }
+ }
+</style>
+	
+	
+	
+<div class="login-navigation-dynamic-itinerary" data-component="login-navigation-dynamic" data-mf-id="login-navigation-dynamic" data-mf-data="{&#34;navigationLoginLabel&#34;:&#34;Login&#34;,&#34;navigationLoginPath&#34;:&#34;&#34;,&#34;loginPopup&#34;:&#34;false&#34;,&#34;navigationLoginItems&#34;:[{&#34;navigationLoginItemLabel&#34;:&#34;Customer Login&#34;,&#34;navigationLoginItemPath&#34;:&#34;&#34;,&#34;loginPopup&#34;:&#34;true&#34;},{&#34;navigationLoginItemLabel&#34;:&#34;Partner Login&#34;,&#34;navigationLoginItemPath&#34;:&#34;/content/indigo/in/en/partner-login.html?linkNav=Partner%20Login%7CLogin%7CHeader%20Menu&#34;,&#34;loginPopup&#34;:&#34;false&#34;},{&#34;navigationLoginItemLabel&#34;:&#34;SME Login&#34;,&#34;navigationLoginItemPath&#34;:&#34;/content/indigo/sme/en.html?linkNav=SME%20Login%7CLogin%7CHeader%20Menu&#34;,&#34;loginPopup&#34;:&#34;false&#34;}],&#34;viewProfileLabel&#34;:&#34;View profile&#34;,&#34;viewProfilePath&#34;:&#34;/content/indigo/in/en/member/member-profile.html&#34;,&#34;idLabel&#34;:&#34;&#34;,&#34;indigoCashLabel&#34;:&#34;IndiGo Cash&#34;,&#34;creditShellLabel&#34;:&#34;&#34;,&#34;logOutLabel&#34;:&#34;Log out&#34;,&#34;logOutPath&#34;:&#34;/content/skyplus6e/in/en/home/homepage.html?linkNav=Log%20out%7CProfile%7CHeader%20Menu&#34;,&#34;navigationAfterLoginItems&#34;:[{&#34;navigationLoginItemLabel&#34;:&#34;My Booking&#34;,&#34;navigationLoginItemPath&#34;:&#34;/content/indigo/in/en/member/member-profile.html#member-booking-tab&#34;,&#34;loginPopup&#34;:&#34;false&#34;},{&#34;navigationLoginItemLabel&#34;:&#34;Account &amp; Settings&#34;,&#34;navigationLoginItemPath&#34;:&#34;/content/indigo/in/en/member/member-profile.html#member-editprofile-tab&#34;,&#34;loginPopup&#34;:&#34;false&#34;},{&#34;navigationLoginItemLabel&#34;:&#34;6E Rewards&#34;,&#34;navigationLoginItemPath&#34;:&#34;/content/indigo/in/en/6e-rewards.html&#34;,&#34;loginPopup&#34;:&#34;false&#34;}]}" data-page-type="itinerary">
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+
+
+                            </li>
+
+                        </ul>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="skyplus6e-header__hamburger-menu">
+            <button class="skyplus6e-header__hamburger-close-menu-button" aria-label="Close hamburger menu">
+                <i class="icon-cross"></i>
+            </button>
+            <nav class="skyplus6e-header__hamburger-menu-nav" aria-label="Hamburger nav links">
+                <ul class="skyplus6e-header__hamburger-menu-items">
+                    <li class="skyplus6e-header__hamburger-menu-item">
+                        <div class="skyplus6e-header__hamburger-menu-item-wrapper skyplus6e-header__hamburger-menu-item-wrapper--login">
+
+                            <!-- Login Hamburger react container -->
+                            
+
+    
+    <div id="container-85b8b64383" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="dynamiccontainer aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+
+
+<style>
+ .placeholder-mf-white .mf-booking-widget- {
+    background-color: #fff;
+ }
+
+ .mf-booking-widget- {
+ height: 100%;
+ background-size: 96% 100%,cover;
+ background-position-x: 9px;
+ background-repeat: no-repeat;
+ }
+ @media screen and (min-width: 769px) {
+ .mf-booking-widget- {
+ margin: 0 16px;
+ background-size: 95% 98%,cover;
+ max-width: 992px;
+ }
+ }
+ @media screen and (min-width: 1024px) {
+ .mf-booking-widget- {
+ margin: 0 auto;
+ background-size: 99% 97%,cover;
+ max-width: 1120px;
+ }
+ }
+ .login-hamburger-dynamic-itinerary {
+ background-image: url('');
+ }
+ @media screen and (min-width: 769px) {
+ .login-hamburger-dynamic-itinerary {
+ background-image: url('');
+ }
+ }
+ @media screen and (min-width: 1024px) {
+ .login-hamburger-dynamic-itinerary {
+ background-image: url('');
+ }
+ }
+</style>
+	
+	
+	
+<div class="login-hamburger-dynamic-itinerary" data-component="login-hamburger-dynamic" data-mf-id="login-hamburger-dynamic" data-mf-data="{&#34;userIcon&#34;:[&#34;skyplus6e:icons/icon-user&#34;],&#34;loginsignup&#34;:&#34;Login/SignUp&#34;,&#34;loginsignupPath&#34;:&#34;/content/dam/skyplus6e/in/en/content-fragments/global-components/header/login/navigation-login-items/customer-login&#34;,&#34;arrowIcon&#34;:[&#34;skyplus6e:icons/icon-arrow&#34;]}" data-page-type="itinerary">
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+
+                        </div>
+                    </li>
+                    
+                        <li class="skyplus6e-header__hamburger-menu-item">
+                            <ul class="skyplus6e-header__hamburger-menu-items-inner link-bothuser">
+                                <li class="skyplus6e-header__hamburger-menu-item-inner-no-link">
+                                    <span>Flights</span>
+                                </li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/web-check-in.html?linkNav=Web%20Check-in%7CFlights%7CHamburger" target="_self">
+                                            <i class="icon-icCheckin"></i> <span>Web Check-in</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/check-flight-status.html?linkNav=Flight%20Status%7CFlights%7CHamburger" target="_self">
+                                            <i class="icon-icFlightStatus"></i> <span>Flight Status</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/edit-booking.html?linkNav=View%2FEdit%20Booking%28s%29%7CFlights%7CHamburger" target="_self">
+                                            <i class="icon-icModify"></i> <span>View/Edit Booking(s)</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/update-contact-details.html?linkNav=Update%20Contact%20Details%7CFlights%7CHamburger" target="_self">
+                                            <i class="icon-update-contact-details"></i> <span>Update Contact Details</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/view-gst-invoice.html?linkNav=View%20GST%20Invoice%7CFlights%7CHamburger" target="_self">
+                                            <i class="icon-view-gst-invoice"></i> <span>View GST Invoice</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/check-refund-status.html?linkNav=Check%20Refund%20Status%7CFlights%7CHamburger" target="_self">
+                                            <i class="icon-Refund-034"></i> <span>Check Refund Status</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-anonymous-user hidden">
+                                        <a href="/partner-login.html?linkNav=Partner%20Login%7CFlights%7CHamburger" target="_self">
+                                            <i class="icon-partner-corporate"></i> <span>Partner Login</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-anonymous-user hidden">
+                                        <a href="/6e-rewards.html?linkNav=6E%20Rewards%7CFlights%7CHamburger" target="_self">
+                                            <i class="icon-Ic_offerssvg"></i> <span>6E Rewards</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-anonymous-user hidden">
+                                        <a href="/interest-on-credit-shell.html?linkNav=Interest%20on%20credit%20shell%7CFlights%7CHamburger" target="_self">
+                                            <i class="icon-ic-Credit-Shell-Claim-Interest2"></i> <span>Interest on credit shell</span>
+                                        </a></li>
+                                
+                            </ul>
+                        </li>
+                    
+                        <li class="skyplus6e-header__hamburger-menu-item">
+                            <ul class="skyplus6e-header__hamburger-menu-items-inner link-bothuser">
+                                <li class="skyplus6e-header__hamburger-menu-item-inner-no-link">
+                                    <span>Services &amp; Offers</span>
+                                </li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/hotels?linkNav=BookHotels%7C%7CHamburger" target="_blank">
+                                            <i class="icon-Ic_hotelssvg"></i> <span>Hotels</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/add-on-services.html?linkNav=Add-ons%20%26%20Services%7CServices%20%26%20Offers%7CHamburger" target="_self">
+                                            <i class="icon-icServices"></i> <span>Add-ons &amp; Services</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/campaigns/indigo-offers.html?linkNav=Offers%7CServices%20%26%20Offers%7CHamburger" target="_self">
+                                            <i class="icon-promotions"></i> <span>Offers</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/destinations.html?linkNav=Our%20Destinations%7CServices%20%26%20Offers%7CHamburger" target="_self">
+                                            <i class="icon-destinations"></i> <span>Our Destinations</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="https://cargo.goindigo.in/?linkNav=cargo-services_hamburger~Services-and-offers" target="_self">
+                                            <i class="icon-cargo"></i> <span>CarGo Services</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="https://groupbooking.goindigo.in/UI/DirectPassenger/CreateBooking.aspx?linkNav=group-bookings_hamburger~Services-and-offers" target="_self">
+                                            <i class="icon-group-booking"></i> <span>Group Booking(s)</span>
+                                        </a></li>
+                                
+                            </ul>
+                        </li>
+                    
+                        <li class="skyplus6e-header__hamburger-menu-item">
+                            <ul class="skyplus6e-header__hamburger-menu-items-inner link-bothuser">
+                                <li class="skyplus6e-header__hamburger-menu-item-inner-no-link">
+                                    <span>INFORMATION ON THE GO</span>
+                                </li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/travel-information/en.html?linkNav=FAQs%7CINFORMATION%20ON%20THE%20GO%7CHamburger" target="_self">
+                                            <i class="icon-travel-information"></i> <span>FAQs</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/information/special-disability-assistance/special-assistance.html?linkNav=Special%20Assistance%7CINFORMATION%20ON%20THE%20GO%7CHamburger" target="_self">
+                                            <i class="icon-special-assistance"></i> <span>Special Assistance</span>
+                                        </a></li>
+                                
+                            </ul>
+                        </li>
+                    
+                        <li class="skyplus6e-header__hamburger-menu-item">
+                            <ul class="skyplus6e-header__hamburger-menu-items-inner link-bothuser">
+                                <li class="skyplus6e-header__hamburger-menu-item-inner-no-link">
+                                    <span>Others</span>
+                                </li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/information/flight-information.html?linkNav=Weather%20advisory%7COthers%7CHamburger" target="_self">
+                                            <i class="icon-ic-weather"></i> <span>Weather advisory</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="https://careers.goindigo.in/?linkNav=careers_hamburger~other" target="_self">
+                                            <i class="icon-career"></i> <span>Careers</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/information/mobile.html?linkNav=Download%20App%7COthers%7CHamburger" target="_self">
+                                            <i class="icon-download-app"></i> <span>Download App</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-login-user hidden">
+                                        <a href="/member/member-profile.html?linkNav=My%20Account%20&%20Settings%7COthers%7CHamburger#member-editprofile-tab" target="_self">
+                                            <i class="icon-account-settings"></i> <span>My Account &amp; Settings</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/contact-us.html?linkNav=Contact%20Us%7COthers%7CHamburger" target="_self">
+                                            <i class="icon-call"></i> <span>Contact Us</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-bothuser">
+                                        <a href="/contact-us/query-form-alliances.html?linkNav=Advertise%20with%20us%7COthers%7CHamburger" target="_self">
+                                            <i class="icon-promotion-code"></i> <span>Advertise with us</span>
+                                        </a></li>
+                                
+                                    <li class="skyplus6e-header__hamburger-menu-item-inner link-login-user hidden">
+                                        <a href="/?status=logout&linkNav=Log%20out%7COthers%7CHamburger" target="_self">
+                                            <i class="icon-logout"></i> <span>Log out</span>
+                                        </a></li>
+                                
+                            </ul>
+                        </li>
+                    
+                    <li class="skyplus6e-header__hamburger-menu-item">
+                        <div class="skyplus6e-header__hamburger-menu-item-logo">
+                            <img src="/content/dam/skyplus6e/in/en/assets/homepage/images/icIndigoLogoBlueR-new.svg" alt="Indigo" class="skyplus6e-header__indigo-logo-img" loading="lazy"/>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</div>
+
+<!-- Login popup react container -->
+
+
+    
+    <div id="container-cadfe6758a" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="dynamiccontainer aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+
+
+<style>
+ .placeholder-mf-white .mf-booking-widget- {
+    background-color: #fff;
+ }
+
+ .mf-booking-widget- {
+ height: 100%;
+ background-size: 96% 100%,cover;
+ background-position-x: 9px;
+ background-repeat: no-repeat;
+ }
+ @media screen and (min-width: 769px) {
+ .mf-booking-widget- {
+ margin: 0 16px;
+ background-size: 95% 98%,cover;
+ max-width: 992px;
+ }
+ }
+ @media screen and (min-width: 1024px) {
+ .mf-booking-widget- {
+ margin: 0 auto;
+ background-size: 99% 97%,cover;
+ max-width: 1120px;
+ }
+ }
+ .mf-login-itinerary {
+ background-image: url('');
+ }
+ @media screen and (min-width: 769px) {
+ .mf-login-itinerary {
+ background-image: url('');
+ }
+ }
+ @media screen and (min-width: 1024px) {
+ .mf-login-itinerary {
+ background-image: url('');
+ }
+ }
+</style>
+	
+	
+	
+<div class="mf-login-itinerary" data-component="mf-login" data-mf-id="mf-login" data-mf-data="{&#34;variation&#34;:[&#34;skyplus6e:login/mobile&#34;],&#34;primaryDescriptionAndRedirection&#34;:&#34;&lt;p>&amp;nbsp;&lt;a href=\&#34;#\&#34;>&amp;nbsp;&lt;/a>&lt;/p>\n&#34;,&#34;loginPopUpTitle&#34;:&#34;6E Rewards Members login with your 6E Rewards user id &amp; password.&#34;,&#34;userId&#34;:&#34;&#34;,&#34;countryCode&#34;:&#34;Country Code&#34;,&#34;countryCodeValue&#34;:&#34;+91&#34;,&#34;mobileNo&#34;:&#34;Mobile No.&#34;,&#34;staffIdType&#34;:[],&#34;employeeId&#34;:&#34;&#34;,&#34;password&#34;:&#34;Password&#34;,&#34;showPasswordLabel&#34;:&#34;Show&#34;,&#34;hidePasswordLabel&#34;:&#34;Hide&#34;,&#34;rememberMe&#34;:&#34;Remember Me&#34;,&#34;forgetPasswordPath&#34;:&#34;/content/skyplus6e/in/en/account/reset-password.html?linkNav=Forgot%20Password%7C%7CLogin%20Popup&#34;,&#34;forgotPasswordLabel&#34;:&#34;Forgot password?&#34;,&#34;loginCtaLabel&#34;:&#34;Login&#34;,&#34;resetPasswordPath&#34;:&#34;&#34;,&#34;secondaryDescriptionAndRedirection&#34;:&#34;&lt;p>&amp;nbsp;&lt;a href=\&#34;#\&#34;>&amp;nbsp;&lt;/a>&lt;/p>\n&#34;,&#34;secondaryInfo&#34;:&#34;&#34;,&#34;placeholder&#34;:&#34;&#34;,&#34;otpTitle&#34;:&#34;&#34;,&#34;otpDescription&#34;:&#34;&#34;,&#34;resendOtpLabel&#34;:&#34;&#34;,&#34;resendOtpNote&#34;:&#34;&#34;,&#34;resendOtpValidationMessage&#34;:&#34;&#34;,&#34;verifyOtpCtaLabel&#34;:&#34;&#34;,&#34;otpHelpDisclaimer&#34;:&#34;&#34;}" data-page-type="itinerary">
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+
+
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+<main class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    <div id="container-00baf1369d" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    <div id="container-3ac68746f2" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="dynamiccontainer aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+
+
+<style>
+ .placeholder-mf-white .mf-booking-widget- {
+    background-color: #fff;
+ }
+
+ .mf-booking-widget- {
+ height: 100%;
+ background-size: 96% 100%,cover;
+ background-position-x: 9px;
+ background-repeat: no-repeat;
+ }
+ @media screen and (min-width: 769px) {
+ .mf-booking-widget- {
+ margin: 0 16px;
+ background-size: 95% 98%,cover;
+ max-width: 992px;
+ }
+ }
+ @media screen and (min-width: 1024px) {
+ .mf-booking-widget- {
+ margin: 0 auto;
+ background-size: 99% 97%,cover;
+ max-width: 1120px;
+ }
+ }
+ .mf-itinerary-itinerary {
+ background-image: url('');
+ }
+ @media screen and (min-width: 769px) {
+ .mf-itinerary-itinerary {
+ background-image: url('');
+ }
+ }
+ @media screen and (min-width: 1024px) {
+ .mf-itinerary-itinerary {
+ background-image: url('');
+ }
+ }
+</style>
+	
+	
+    
+    <script src="https://app-itinerary-prod-skyplus6e.goindigo.in/config/env-config.js?v=1" async></script>
+    <script src="https://app-itinerary-prod-skyplus6e.goindigo.in/remoteEntry.js?v=1"></script>
+	
+	
+<div class="mf-itinerary-itinerary" data-component="mf-itinerary" data-mf-id="mf-itinerary" data-mf-data="{&#34;itineraryMessages&#34;:{&#34;itineraryText&#34;:&#34;Itinerary&#34;,&#34;specialFareBanner&#34;:[{&#34;specialFareLabel&#34;:&#34;Students&#34;,&#34;specialfarecode&#34;:&#34;STU&#34;,&#34;specialFareBadge&#34;:&#34;Students Fare&#34;,&#34;itineraryBanner&#34;:&#34;Hooray! You&#39;ve got a great deal.&#34;,&#34;discountedPriceLabel&#34;:&#34;&#34;,&#34;warningSelectMessage&#34;:{&#34;placeholder&#34;:&#34;&#34;,&#34;disablePopUp&#34;:&#34;&#34;,&#34;popupId&#34;:&#34;&#34;,&#34;heading&#34;:&#34;Information Alert&#34;,&#34;description&#34;:&#34;&lt;p>The special fare for students is only valid on domestic flights.&lt;/p>\n&#34;,&#34;ctaLabel&#34;:&#34;Ok&#34;,&#34;ctaPath&#34;:&#34;&#34;,&#34;secondaryCtaLabel&#34;:&#34;&#34;,&#34;secondaryCtaPath&#34;:&#34;&#34;,&#34;highlightLabel&#34;:&#34;&#34;,&#34;idPlaceholderLabel&#34;:&#34;&#34;,&#34;checkboxContentLabels&#34;:[],&#34;multilineLabels&#34;:[],&#34;tncLabel&#34;:&#34;&#34;,&#34;additionalLabel&#34;:&#34;&#34;,&#34;additionalLabelPlaceholder&#34;:&#34;&#34;,&#34;image&#34;:&#34;&#34;},&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;Armed Forces&#34;,&#34;specialfarecode&#34;:&#34;DFN&#34;,&#34;specialFareBadge&#34;:&#34;Armed Forces Fare&#34;,&#34;itineraryBanner&#34;:&#34;Hooray! You&#39;ve got a great deal.&#34;,&#34;discountedPriceLabel&#34;:&#34;&#34;,&#34;warningSelectMessage&#34;:{&#34;placeholder&#34;:&#34;&#34;,&#34;disablePopUp&#34;:&#34;&#34;,&#34;popupId&#34;:&#34;&#34;,&#34;heading&#34;:&#34;Information Alert&#34;,&#34;description&#34;:&#34;&lt;p>The special fare for armed forces is only valid on domestic flights.&lt;/p>\n&#34;,&#34;ctaLabel&#34;:&#34;Ok&#34;,&#34;ctaPath&#34;:&#34;&#34;,&#34;secondaryCtaLabel&#34;:&#34;&#34;,&#34;secondaryCtaPath&#34;:&#34;&#34;,&#34;highlightLabel&#34;:&#34;&#34;,&#34;idPlaceholderLabel&#34;:&#34;&#34;,&#34;checkboxContentLabels&#34;:[],&#34;multilineLabels&#34;:[],&#34;tncLabel&#34;:&#34;&#34;,&#34;additionalLabel&#34;:&#34;&#34;,&#34;additionalLabelPlaceholder&#34;:&#34;&#34;,&#34;image&#34;:&#34;&#34;},&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;6Exclusive&#34;,&#34;specialfarecode&#34;:&#34;VAXI&#34;,&#34;specialFareBadge&#34;:&#34;6Exclusive Fare&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;&#34;,&#34;warningSelectMessage&#34;:{&#34;placeholder&#34;:&#34;&#34;,&#34;disablePopUp&#34;:&#34;false&#34;,&#34;popupId&#34;:&#34;&#34;,&#34;heading&#34;:&#34;Information Alert&#34;,&#34;description&#34;:&#34;&lt;p>6Exclusive fare can only be availed for travel date beyond 7 days&lt;/p>\n&#34;,&#34;ctaLabel&#34;:&#34;Ok&#34;,&#34;ctaPath&#34;:&#34;&#34;,&#34;secondaryCtaLabel&#34;:&#34;&#34;,&#34;secondaryCtaPath&#34;:&#34;&#34;,&#34;highlightLabel&#34;:&#34;&#34;,&#34;idPlaceholderLabel&#34;:&#34;&#34;,&#34;checkboxContentLabels&#34;:[],&#34;multilineLabels&#34;:[],&#34;tncLabel&#34;:&#34;&#34;,&#34;additionalLabel&#34;:&#34;&#34;,&#34;additionalLabelPlaceholder&#34;:&#34;&#34;,&#34;image&#34;:&#34;&#34;},&#34;hideForAnonymous&#34;:&#34;false&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;7.0&#34;},{&#34;specialFareLabel&#34;:&#34;Doctors &amp; Nurses&#34;,&#34;specialfarecode&#34;:&#34;MEDICAL&#34;,&#34;specialFareBadge&#34;:&#34;Medical Warrior Fare&#34;,&#34;itineraryBanner&#34;:&#34;Hooray! You&#39;ve got a great deal.&#34;,&#34;discountedPriceLabel&#34;:&#34;&#34;,&#34;warningSelectMessage&#34;:{&#34;placeholder&#34;:&#34;&#34;,&#34;disablePopUp&#34;:&#34;&#34;,&#34;popupId&#34;:&#34;&#34;,&#34;heading&#34;:&#34;Information Alert&#34;,&#34;description&#34;:&#34;&lt;p>The special fare for doctors and nurses fare is valid only on domestic flights.&lt;/p>\n&#34;,&#34;ctaLabel&#34;:&#34;Ok&#34;,&#34;ctaPath&#34;:&#34;&#34;,&#34;secondaryCtaLabel&#34;:&#34;&#34;,&#34;secondaryCtaPath&#34;:&#34;&#34;,&#34;highlightLabel&#34;:&#34;&#34;,&#34;idPlaceholderLabel&#34;:&#34;&#34;,&#34;checkboxContentLabels&#34;:[],&#34;multilineLabels&#34;:[],&#34;tncLabel&#34;:&#34;&#34;,&#34;additionalLabel&#34;:&#34;&#34;,&#34;additionalLabelPlaceholder&#34;:&#34;&#34;,&#34;image&#34;:&#34;&#34;},&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;Unaccompanied Minor&#34;,&#34;specialfarecode&#34;:&#34;UMNR&#34;,&#34;specialFareBadge&#34;:&#34;&#34;,&#34;itineraryBanner&#34;:&#34;Hooray! You&#39;ve got a great deal.&#34;,&#34;discountedPriceLabel&#34;:&#34;&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;Family &amp; Friends&#34;,&#34;specialfarecode&#34;:&#34;FNF&#34;,&#34;specialFareBadge&#34;:&#34;Family &amp; Friends Fare&#34;,&#34;itineraryBanner&#34;:&#34;Hooray! You&#39;ve got a great deal.&#34;,&#34;discountedPriceLabel&#34;:&#34;&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;AGFEST&#34;,&#34;specialFareBadge&#34;:&#34;Sale fare&#34;,&#34;itineraryBanner&#34;:&#34;Hooray! You&#39;ve saved big with IndiGo Sale&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;FED15&#34;,&#34;specialFareBadge&#34;:&#34;Sale fare&#34;,&#34;itineraryBanner&#34;:&#34; Hooray! You&#39;ve saved big with this offer.&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;6EMICE9&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;GRAFEST&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;PACC24&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;Congratulation! Booked under Discounted Fare&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;6EHFAI&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;LOVEYOU2&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;MICE1&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;MICE2&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;MICE3&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;MICE4&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;MICE5&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;MICE6&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;MICE7&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;MICE8&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;MICE9&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;false&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;MICE10&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;false&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;HAPPY18&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;false&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;},{&#34;specialFareLabel&#34;:&#34;&#34;,&#34;specialfarecode&#34;:&#34;HBD18&#34;,&#34;specialFareBadge&#34;:&#34;SALE&#34;,&#34;itineraryBanner&#34;:&#34;&#34;,&#34;discountedPriceLabel&#34;:&#34;Savings per Pax&#34;,&#34;hideForAnonymous&#34;:&#34;false&#34;,&#34;bookingAllowedAfterDays&#34;:&#34;&#34;}],&#34;boardingPassTextField&#34;:&#34;&lt;p>Boarding gate closes 25 minutes prior to the scheduled time of departure for domestic/international sectors.&lt;/p>\n&#34;,&#34;itineraryDetailsInfo&#34;:&#34;Here are details from your flight from {} on {}&#34;,&#34;itineraryToAndFroDetailsInfo&#34;:&#34;Here are the details of your flight from {} on {} and return on {}&#34;,&#34;viewItineraryLabel&#34;:&#34;View Itinerary&#34;,&#34;reviewItineraryLabel&#34;:&#34;Review Itinerary&#34;,&#34;bookedonLabel&#34;:&#34;*Booked On:&#34;,&#34;cancelledOnLabel&#34;:&#34;*Cancelled On:&#34;,&#34;revisedOnLabel&#34;:&#34;*Revised On:&#34;,&#34;holdBookingText&#34;:&#34;Your Booking has been put on hold!&#34;,&#34;holdBookingMessage&#34;:&#34;This reservation will remain on hold until {} .&#34;,&#34;holdBookingViewDetailsLabel&#34;:&#34;View Details&#34;,&#34;holdBookingTextInfo&#34;:&#34;&lt;p>Your reservation for &lt;b>{}&lt;/b>&amp;nbsp;flight on {} at {} is on hold for one of the below reasons&lt;/p>\n&lt;ol>\n&lt;li>Either you selected the &#39;Hold &amp;amp; Pay Later&#39; option to hold your reservation, or,&lt;/li>\n&lt;li>Your payment was unsuccessful.&lt;/li>\n&lt;/ol>\n&lt;p>Please click on &#39;Pay Now&#39; to complete your booking.&lt;/p>\n&#34;,&#34;payNowLabel&#34;:&#34;Pay Now&#34;,&#34;cancelledBookingText&#34;:&#34;Your Booking is cancelled&#34;,&#34;cancelledBookingInfo&#34;:&#34;Booking cancelled request has been completed successfully&#34;,&#34;retrieveAnotherItinerary&#34;:&#34;Retrieve Another Itinerary&#34;,&#34;congratulationsLabel&#34;:&#34;Congratulations!&#34;,&#34;congratulationsMessage&#34;:&#34;Congratulations! Your flight booking is confirmed!&#34;,&#34;congratulationsInfo&#34;:&#34;Your {} Flight ticket $date has been confirmed.&#34;,&#34;purchaseSuccessInfo&#34;:&#34;Your purchase of the following 6E Add-on(s) is successfull - {}&#34;,&#34;purchaseViewDetailsLabel&#34;:&#34;View Details&#34;,&#34;bookingInProgressText&#34;:&#34;Your Booking is in progress!&#34;,&#34;bookingInProgressInfo&#34;:&#34;&lt;p>&lt;b>Awating conformation from our Partner Airline&amp;nbsp;&lt;/b>for your $trip flight on $date. As this might take few minutes, please stay on this page and bear with us.&lt;/p>\n&#34;,&#34;availPlanBText&#34;:&#34;&lt;p>&lt;b>One of your flight(s) has been rescheduled or cancelled &lt;/b>from our end. However, you may change the time/date of your flight or cancel at no additional cost with &lt;b>Plan B&lt;/b>&lt;/p>\n&#34;,&#34;availPlanBLabel&#34;:&#34;Avail Plan B&#34;,&#34;availPlanBPath&#34;:&#34;/content/indigo/in/en/plan-b.html&#34;},&#34;itineraryBannerColor&#34;:&#34;#3f48cc&#34;,&#34;itineraryJourneySummary&#34;:{&#34;pnrbookingReferenceLabel&#34;:&#34;PNR/Booking Reference&#34;,&#34;partnerPnrbookingLabel&#34;:&#34;Partner PNR/Booking&#34;,&#34;paymentStatusLabel&#34;:&#34;Payment Status&#34;,&#34;paymentStatusLink&#34;:&#34;&#34;,&#34;mandatoryHealthFormLabel&#34;:&#34;&#34;,&#34;healthFormCta&#34;:&#34;&#34;,&#34;healthFormCtaPath&#34;:&#34;&#34;,&#34;navigationMenu&#34;:[{&#34;buttonCode&#34;:&#34;modify&#34;,&#34;buttonLabel&#34;:&#34;Modify&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/modify-booking.svg&#34;,&#34;buttonLink&#34;:&#34;&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;,&#34;subMenu&#34;:[{&#34;buttonCode&#34;:&#34;cancelbooking&#34;,&#34;buttonLabel&#34;:&#34;Cancel Booking&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;cancelflight&#34;,&#34;buttonLabel&#34;:&#34;Cancel Flight&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/indigo/in/en/booking/cancel-flight.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;changeflight&#34;,&#34;buttonLabel&#34;:&#34;Change Flight&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/flight-select-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;Updatecontact&#34;,&#34;buttonLabel&#34;:&#34;Update Contact Details&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;changeaddseat&#34;,&#34;buttonLabel&#34;:&#34;Select/Change Seats&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/seat-selection-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;addpayment&#34;,&#34;buttonLabel&#34;:&#34;Add Payment&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;}]},{&#34;buttonCode&#34;:&#34;addons&#34;,&#34;buttonLabel&#34;:&#34;6E Add-ons&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/addon.svg&#34;,&#34;buttonLink&#34;:&#34;&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;,&#34;subMenu&#34;:[{&#34;buttonCode&#34;:&#34;addsnacksbags&#34;,&#34;buttonLabel&#34;:&#34;Add Snacks/Bags&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/add-on-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;addfastforward&#34;,&#34;buttonLabel&#34;:&#34;Add Fast Forward&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/add-on-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;addlounge&#34;,&#34;buttonLabel&#34;:&#34;Add Lounge&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/add-on-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;addwchr&#34;,&#34;buttonLabel&#34;:&#34;Add Special Assistance&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/passenger-edit-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;addprime&#34;,&#34;buttonLabel&#34;:&#34;Add Prime&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/add-on-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;addseatneat&#34;,&#34;buttonLabel&#34;:&#34;Add 6E Seat &amp; Eat&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/add-on-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;adddelayednlostbaggage&#34;,&#34;buttonLabel&#34;:&#34;Add Delayed and Lost Baggage Protection&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/add-on-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;addsportsequipment&#34;,&#34;buttonLabel&#34;:&#34;Add Sports Equipment&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/add-on-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;addta&#34;,&#34;buttonLabel&#34;:&#34;Add Travel Assistance&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/add-on-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;add6ebar&#34;,&#34;buttonLabel&#34;:&#34;Add One for the skies&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/add-on-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;addgoodnightkit&#34;,&#34;buttonLabel&#34;:&#34;Add Blanket, Pillow, &amp; Eye Shade&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/add-on-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;ADDEXCESSBAGGAGE&#34;,&#34;buttonLabel&#34;:&#34;Add Excess Baggage&#34;,&#34;buttonIcon&#34;:&#34;&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/bookings/add-on-modification.html&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;}]},{&#34;buttonCode&#34;:&#34;email&#34;,&#34;buttonLabel&#34;:&#34;Email&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/email-itinerary.svg&#34;,&#34;buttonLink&#34;:&#34;&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;print&#34;,&#34;buttonLabel&#34;:&#34;Print&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/print-itinerary.svg&#34;,&#34;buttonLink&#34;:&#34;&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;flightstatus&#34;,&#34;buttonLabel&#34;:&#34;Flight Status&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/flight-status.svg&#34;,&#34;buttonLink&#34;:&#34;/content/indigo/in/en/flight-status.html?bau=1&#34;,&#34;secondaryButtonLink&#34;:&#34;/content/indigo/sme/en/flight-status.html?bau=1&#34;},{&#34;buttonCode&#34;:&#34;undochkn&#34;,&#34;buttonLabel&#34;:&#34;Undo Web Checkin&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/icUndoCheckIn.svg&#34;,&#34;buttonLink&#34;:&#34;/content/indigo/in/en/check-in/view.html?linkNav=view_booking-widget&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;webchkn&#34;,&#34;buttonLabel&#34;:&#34;Web Checkin&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/icCheckin.svg&#34;,&#34;buttonLink&#34;:&#34;/content/skyplus6e/in/en/check-ins/view.html&#34;,&#34;secondaryButtonLink&#34;:&#34;/content/indigo/in/en/check-in/view.html?bau=1&#34;},{&#34;buttonCode&#34;:&#34;splitpnr&#34;,&#34;buttonLabel&#34;:&#34;Split PNR&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/icSplitPnr.svg&#34;,&#34;buttonLink&#34;:&#34;https://dbusinessapps.goindigo.in/WebsiteAppDigital4x/splitpnr/index&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;download&#34;,&#34;buttonLabel&#34;:&#34;Download Itinerary&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/download-itinerary.svg&#34;,&#34;buttonLink&#34;:&#34;&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;emailitr&#34;,&#34;buttonLabel&#34;:&#34;Email Itinerary&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/icEmailItinerary.svg&#34;,&#34;buttonLink&#34;:&#34;&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;emailbp&#34;,&#34;buttonLabel&#34;:&#34;Email Boarding Pass&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/icEmailItinerary.svg&#34;,&#34;buttonLink&#34;:&#34;&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;addbagtag&#34;,&#34;buttonLabel&#34;:&#34;Add Bag Tags&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/icBagTag.svg&#34;,&#34;buttonLink&#34;:&#34;/content/indigo/in/en/check-in/addbagtag.html?linkNav=addbagtag_booking-widget&amp;bau=1&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;viewbagtag&#34;,&#34;buttonLabel&#34;:&#34;View Bag Tags&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/icBagTag.svg&#34;,&#34;buttonLink&#34;:&#34;/content/indigo/in/en/bag-tag.html?bau=1&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;whatsappbp&#34;,&#34;buttonLabel&#34;:&#34;Whats App Boarding pass&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/whatsapp.svg&#34;,&#34;buttonLink&#34;:&#34;&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;},{&#34;buttonCode&#34;:&#34;whatsapp&#34;,&#34;buttonLabel&#34;:&#34;WhatsApp&#34;,&#34;buttonIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/global/images/icons/whatsapp_itinerary.svg&#34;,&#34;buttonLink&#34;:&#34;&#34;,&#34;secondaryButtonLink&#34;:&#34;&#34;}],&#34;creditShellLabel&#34;:&#34;Total Credit Shell&#34;,&#34;expiryDateLabel&#34;:&#34;Expiry date&#34;,&#34;creditShellInfo&#34;:&#34;&lt;p>We have protected your PNR amount in the form of a credit shell. You can use it to make a future booking within 1 year of its issuance, for the same passenger(s).&lt;/p>\n&#34;,&#34;refundAmountText&#34;:&#34;You are not eligible for a refund as the booking/travel date criteria does not match&#34;,&#34;refundAmountCta&#34;:&#34;Refund Amount&#34;,&#34;viewDetailsCtaLabel&#34;:&#34;View Details&#34;,&#34;disclaimerText&#34;:&#34;*Booking date reflects in UTC (Coordinated Universal Time), all other timings mentioned are as per local TIME&#34;},&#34;codeShare&#34;:[{&#34;equipmentType&#34;:&#34;320&#34;,&#34;carrierCode&#34;:&#34;6E&#34;,&#34;equipmentTypeLabel&#34;:&#34;A320&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/icDottedPlane.svg&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated by Indigo Airlines&#34;,&#34;airlinesLabel&#34;:&#34;&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/icFlightStroke (1).svg&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/IndigoAirlines.png&#34;},{&#34;equipmentType&#34;:&#34;ATR&#34;,&#34;carrierCode&#34;:&#34;6E&#34;,&#34;equipmentTypeLabel&#34;:&#34;ATR&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/icATR (1).svg&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated by Indigo Airlines&#34;,&#34;airlinesLabel&#34;:&#34;&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/icATR (1).svg&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/IndigoAirlines.png&#34;},{&#34;equipmentType&#34;:&#34;321&#34;,&#34;carrierCode&#34;:&#34;6E&#34;,&#34;equipmentTypeLabel&#34;:&#34;A321&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/icDottedPlane.svg&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated by Indigo Airlines&#34;,&#34;airlinesLabel&#34;:&#34;&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/icFlightStroke (1).svg&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/IndigoAirlines.png&#34;},{&#34;equipmentType&#34;:&#34;77W&#34;,&#34;carrierCode&#34;:&#34;6E&#34;,&#34;equipmentTypeLabel&#34;:&#34;B777&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/icDottedPlane.svg&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated by Indigo Airlines&#34;,&#34;airlinesLabel&#34;:&#34;&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/icFlightStroke (1).svg&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/IndigoAirlines.png&#34;},{&#34;equipmentType&#34;:&#34;32B&#34;,&#34;carrierCode&#34;:&#34;6E&#34;,&#34;equipmentTypeLabel&#34;:&#34;32B&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/icDottedPlane.svg&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated by Indigo Airlines&#34;,&#34;airlinesLabel&#34;:&#34;&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/icFlightStroke (1).svg&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/IndigoAirlines.png&#34;},{&#34;equipmentType&#34;:&#34;321&#34;,&#34;carrierCode&#34;:&#34;TK&#34;,&#34;equipmentTypeLabel&#34;:&#34;A321&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlinesLogo.png&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated by Turkish Airlines&#34;,&#34;airlinesLabel&#34;:&#34;&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlinesLogo.png&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlines.png&#34;},{&#34;equipmentType&#34;:&#34;ATR&#34;,&#34;carrierCode&#34;:&#34;TK&#34;,&#34;equipmentTypeLabel&#34;:&#34;ATR&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlinesLogo.png&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated by Turkish Airlines&#34;,&#34;airlinesLabel&#34;:&#34;&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlinesLogo.png&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlines.png&#34;},{&#34;equipmentType&#34;:&#34;320&#34;,&#34;carrierCode&#34;:&#34;TK&#34;,&#34;equipmentTypeLabel&#34;:&#34;A320&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlinesLogo.png&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated by Turkish Airlines&#34;,&#34;airlinesLabel&#34;:&#34;&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlinesLogo.png&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlines.png&#34;},{&#34;equipmentType&#34;:&#34;77W&#34;,&#34;carrierCode&#34;:&#34;TK&#34;,&#34;equipmentTypeLabel&#34;:&#34;B777&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlinesLogo.png&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated by Turkish Airlines&#34;,&#34;airlinesLabel&#34;:&#34;&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlinesLogo.png&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlines.png&#34;},{&#34;equipmentType&#34;:&#34;32B&#34;,&#34;carrierCode&#34;:&#34;TK&#34;,&#34;equipmentTypeLabel&#34;:&#34;32B&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlinesLogo.png&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated by Turkish Airlines&#34;,&#34;airlinesLabel&#34;:&#34;&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlinesLogo.png&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/TurkishAirlines.png&#34;},{&#34;equipmentType&#34;:&#34;32B&#34;,&#34;carrierCode&#34;:&#34;CX&#34;,&#34;equipmentTypeLabel&#34;:&#34;32B&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/Cathay_pacific2.jpg&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated by Cathay Pacific&#34;,&#34;airlinesLabel&#34;:&#34;&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/Cathay_pacific2.jpg&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/Cathay_Pacific_LOGO@3x.png&#34;},{&#34;equipmentType&#34;:&#34;32B&#34;,&#34;carrierCode&#34;:&#34;QF&#34;,&#34;equipmentTypeLabel&#34;:&#34;32B&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/QANTAS_Masterbrand_Vertical_RGB_190816.jpg&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated by Qantas Airline&#34;,&#34;airlinesLabel&#34;:&#34;&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/QANTAS_Masterbrand_Vertical_RGB_190816.jpg&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/QANTAS_Masterbrand_Horizontal_RGB_190816.png&#34;},{&#34;equipmentType&#34;:&#34;32B&#34;,&#34;carrierCode&#34;:&#34;BA&#34;,&#34;equipmentTypeLabel&#34;:&#34;32B&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/BA_Spd_Col_Logo.jpg&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated By&#34;,&#34;airlinesLabel&#34;:&#34;British Airlines&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/BA_Spd_Col_Logo.jpg&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/BA_Spd_Col_Logo.jpg&#34;},{&#34;equipmentType&#34;:&#34;32W&#34;,&#34;carrierCode&#34;:&#34;6E&#34;,&#34;equipmentTypeLabel&#34;:&#34;32W&#34;,&#34;carrierCodePopupIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/icDottedPlane.svg&#34;,&#34;operatedByAirlinesLabel&#34;:&#34;Operated by Indigo Airlines&#34;,&#34;airlinesLabel&#34;:&#34;&#34;,&#34;carrierCodeIcon&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/icFlightStroke (1).svg&#34;,&#34;carrierCodeImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/srp/images/IndigoAirlines.png&#34;}],&#34;udaanLogoImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/itinerary/images/logo_udan updated.png&#34;,&#34;whatsAppIcon&#34;:&#34;/content/cq:tags/skyplus6e/icons/icon-whatsapp&#34;,&#34;whatsAppText&#34;:&#34;Get updates on&#34;,&#34;whatsAppSubText&#34;:&#34;&lt;p>By subscribing to this, you agree to the terms and conditions of WhatsApp and to the &lt;a href=\&#34;/content/indigo/in/en/information/terms-and-conditions.html\&#34; target=\&#34;_blank\&#34;>Indigo Privacy policy&lt;/a>.&lt;/p>\n&#34;,&#34;subscribeNowCtaLabel&#34;:&#34;Subscribe now&#34;,&#34;subscribeNowInfoText&#34;:&#34;You have successfully subscribed for notifications and updates from Indigo to receive this itinerary please click on WhatsApp Itinerary link given below&#34;,&#34;passengerDetailsForm&#34;:{&#34;placeholder&#34;:&#34;&#34;,&#34;disablePopUp&#34;:&#34;true&#34;,&#34;popupId&#34;:&#34;&#34;,&#34;heading&#34;:&#34;Passenger Details Form (International arrivals)&#34;,&#34;description&#34;:&#34;&lt;p>&lt;a href=\&#34;/content/skyplus6e/in/en/passenger-manifest.html\&#34;>Click here to fill details&lt;/a>&lt;/p>\n&#34;,&#34;ctaLabel&#34;:&#34;&#34;,&#34;ctaPath&#34;:&#34;&#34;,&#34;secondaryCtaLabel&#34;:&#34;&#34;,&#34;secondaryCtaPath&#34;:&#34;&#34;,&#34;highlightLabel&#34;:&#34;Mandatory&#34;,&#34;idPlaceholderLabel&#34;:&#34;&#34;,&#34;checkboxContentLabels&#34;:[],&#34;multilineLabels&#34;:[],&#34;tncLabel&#34;:&#34;&#34;,&#34;additionalLabel&#34;:&#34;&#34;,&#34;additionalLabelPlaceholder&#34;:&#34;&#34;,&#34;image&#34;:&#34;&#34;},&#34;passengerDetailsTable&#34;:{&#34;indigoPassengerssLabel&#34;:&#34;Passenger(s) Details&#34;,&#34;passengersDetailsLabel&#34;:&#34;Passenger Details&#34;,&#34;sNoLabel&#34;:&#34;S No.&#34;,&#34;passengersLabel&#34;:&#34;Passenger(s)&#34;,&#34;passengerTypes&#34;:null,&#34;statusLabel&#34;:&#34;&#34;,&#34;baggageLabel&#34;:&#34;Baggage&#34;,&#34;baggageTemplate&#34;:&#34;&#34;,&#34;seatNoLabel&#34;:&#34;Seat No.&#34;,&#34;eAddOnsLabel&#34;:&#34;6E Add-ons&#34;,&#34;eTicketNoLabel&#34;:&#34; E Ticket no.&#34;,&#34;addonsInfo&#34;:[{&#34;key&#34;:&#34;DLNG&#34;,&#34;value&#34;:&#34;You will receive a Lounge Access E-certificate in a separate email shortly. In case, you do not receive it even 60 mins after purchase, please call us at 0124-4973838/0124-6173838.&#34;,&#34;description&#34;:&#34;&#34;}],&#34;okToBoardLabel&#34;:&#34;Ok To Board&#34;,&#34;seatSelectLabel&#34;:&#34;Select Seat&#34;,&#34;seatSelectLink&#34;:&#34;/content/skyplus6e/in/en/bookings/seat-selection-modification.html&#34;,&#34;fillHealthFormLabel&#34;:&#34;&#34;,&#34;fillHealthFormLink&#34;:&#34;&#34;,&#34;viewHealthFormLabel&#34;:&#34;&#34;,&#34;viewHealthFormLink&#34;:&#34;&#34;,&#34;downloadBoardingPassLabel&#34;:&#34;Download Boarding Pass&#34;,&#34;downloadBoardingPassPath&#34;:&#34;/content/skyplus6e/in/en/check-ins/print.html&#34;,&#34;submitYourDetailsLabel&#34;:&#34;&#34;,&#34;submitYourDetailsPath&#34;:&#34;&#34;,&#34;preBookNowLabel&#34;:&#34;Pre-book Now&#34;,&#34;noShowLabel&#34;:&#34;&#34;},&#34;operatedByLabel&#34;:&#34;Operated By&#34;,&#34;flightDetailsLabel&#34;:&#34;Flight Details&#34;,&#34;flightStatusLabel&#34;:{&#34;Departing&#34;:&#34;Departing Flight&#34;,&#34;Returning&#34;:&#34;Return Flight&#34;,&#34;CheckinCloses&#34;:&#34;Check-in closes&#34;,&#34;BagdropClose&#34;:&#34;Check-in/Bag Drop Closes&#34;},&#34;travelTime&#34;:&#34;Travel Time&#34;,&#34;bannerLink&#34;:&#34;/content/indigo/in/en/how-to-check-in.html&#34;,&#34;bannerImage&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/itinerary/images/Web-check-in-banner-new.jpg&#34;,&#34;bannerImageMobile&#34;:&#34;/content/dam/skyplus6e/in/en/assets/booking/itinerary/images/Web-check-in-banner-mweb-new.jpg&#34;,&#34;bannerAltText&#34;:&#34;Itinerary-Page&#34;,&#34;fareSummaryContactDetails&#34;:{&#34;fareSummaryLabel&#34;:&#34;Fare Summary&#34;,&#34;updateContactDetailsLabel&#34;:&#34;Update Details&#34;,&#34;contactDetailsLabel&#34;:&#34;Contact Details&#34;,&#34;subscribeText&#34;:&#34;Subscribed&#34;,&#34;emergencyContactLabel&#34;:&#34;Emergency Contact Relationship&#34;,&#34;updateContactDetailsText&#34;:&#34;Your contact details have been updated successfully.&#34;,&#34;whatsappUnsubscribeText&#34;:&#34;To unsubscribe send whatsapp message “STOP” from your registered mobile number&#34;,&#34;addressLabel&#34;:&#34;Address&#34;,&#34;passengerNameLabel&#34;:&#34;Passenger Name&#34;,&#34;passengerMobileNumberLabel&#34;:&#34;Passenger Mobile Number&#34;,&#34;emailId&#34;:&#34;Email Id&#34;},&#34;moreInformationLabel&#34;:&#34;More Information&#34;,&#34;moreInformationItems&#34;:[{&#34;iconPath&#34;:&#34;/content/cq:tags/skyplus6e/icons/icon-icNote&#34;,&#34;imagePath&#34;:&#34;&#34;,&#34;iconKey&#34;:&#34;Note&#34;,&#34;iconLabel&#34;:&#34;Note&#34;,&#34;iconText&#34;:&#34;&lt;ol style=\&#34;list-style: none;\&#34;>\n&lt;li>Goods and Services Tax (GST) shall be levied at applicable rates on all air transportation services provided by IndiGo, except in cases specifically exempted under law.&lt;/li>\n&lt;li>This is not a GST invoice. For GST details, please refer the GST invoice which shall be sent to the email address in the name of the First passenger, mentioned in this itinerary. In case of a booking made by a GSTIN holder, the GST invoice shall be sent in the name of the GSTIN holder to the email address mentioned while providing the GSTIN information at the time of reservation.&lt;/li>\n&lt;li>Additionally, passengers may download the GST invoice using their PNR number on the IndiGo website&amp;nbsp;&lt;a href=\&#34;https://www.goindigo.in/\&#34;>www.goindigo.in&lt;/a>.&lt;/li>\n&lt;li>GST shall also be applicable on any special services requested by the passenger at applicable rates.&lt;/li>\n&lt;li>Tax Invoices shall be only in INR, even in cases where the payment is made in a currency other than INR.&lt;/li>\n&lt;li>Airfare Charges include Base Fare and CUTE Charge.&lt;/li>\n&lt;li>PSF/ASF/UDF/ADF are collected on behalf of the Airport Authority of India (AAI)/Other Airport Operators. In case of no-show, you can claim the taxes on&amp;nbsp;&lt;a href=\&#34;https://www.goindigo.in/\&#34;>www.goindigo.in&lt;/a>&lt;/li>\n&lt;/ol>\n&#34;,&#34;linkText&#34;:&#34;&#34;,&#34;linkTextPath&#34;:&#34;&#34;},{&#34;iconPath&#34;:&#34;/content/cq:tags/skyplus6e/icons/icon-icBaggageAllowance&#34;,&#34;imagePath&#34;:&#34;&#34;,&#34;iconKey&#34;:&#34;BaggageAllowanceDomestic&#34;,&#34;iconLabel&#34;:&#34;Baggage Allowance: {faretype} : : {}-{}&#34;,&#34;iconText&#34;:&#34;&lt;ul>\n&lt;li>Checked Baggage Allowance:&amp;nbsp;&amp;nbsp;&lt;b>{baggageAllowance} kgs per person&lt;/b>&amp;nbsp;({baggageAllowanceCount} piece | {checkinLimitPerPiece} kg each).&lt;/li>\n&lt;li>Disclaimer for Domestic Check-in Baggage:&amp;nbsp;&lt;b>{baggageAllowance} kgs&lt;/b>&amp;nbsp;per person&amp;nbsp;({baggageAllowanceCount} piece | {checkinLimitPerPiece} kg each). For eligible passengers with&amp;nbsp;6E Double Seat or 6E Multiseats&amp;nbsp;bookings, an additional 10 kg allowance will be applicable. Additional charges may apply for excess weight and extra piece,&amp;nbsp;&lt;a href=\&#34;/content/indigo/in/en/add-on-services/excess-baggage.html\&#34;>click here&lt;/a>&amp;nbsp;for the detail.&lt;/li>\n&lt;li>Hand Baggage Allowance:&amp;nbsp;&lt;b>{handBaggageAllowanceCount}&amp;nbsp;hand bag up to {handBaggageAllowance}&amp;nbsp;kgs and 115 cms (L+W+H) shall be allowed per customer.&lt;/b>&amp;nbsp;For contactless travel we recommend to place it under the seat in front, on board.&lt;/li>\n&lt;li>&lt;b>Track your bag:&lt;/b>&amp;nbsp;We strive to ensure the safe and timely delivery of your baggage upon your arrival to your destination.&amp;nbsp;&lt;br>\n&lt;a href=\&#34;http://www.worldtracer.aero/filedsp/6e.htm?linkNav=6e.htm&amp;amp;linkNav=6e_www.goindigo.in~footer\&#34;>Click here&lt;/a>&amp;nbsp;to track your bag.&lt;br>\n&lt;a href=\&#34;/content/indigo/in/en/baggage.html\&#34;>Click here&lt;/a>&amp;nbsp;for any additional baggage information&lt;/li>\n&lt;li>Refer to Conditions of Carriage for change/cancellation fee and detailed T&amp;amp;Cs.&lt;/li>\n&lt;li>See Fare Rules for detailed T&amp;amp;Cs .&lt;/li>\n&lt;/ul>\n&#34;,&#34;linkText&#34;:&#34;&#34;,&#34;linkTextPath&#34;:&#34;&#34;},{&#34;iconPath&#34;:&#34;/content/cq:tags/skyplus6e/icons/icon-icBaggageAllowance&#34;,&#34;imagePath&#34;:&#34;&#34;,&#34;iconKey&#34;:&#34;BaggageAllowanceInternational&#34;,&#34;iconLabel&#34;:&#34;Baggage Allowance: {faretype} : : {}-{}&#34;,&#34;iconText&#34;:&#34;&lt;ul>\n&lt;li>Checked Baggage Allowance:&amp;nbsp;&lt;b>{baggageAllowance} Kgs per person&lt;/b>&amp;nbsp;&amp;nbsp;({baggageAllowanceCount} piece | {checkinLimitPerPiece} kg each).&amp;nbsp;For eligible passengers with&amp;nbsp;6E Double Seat&amp;nbsp;bookings, an additional 10 kg allowance will be applicable. Allowance of&amp;nbsp;&lt;b>{baggageAllowance}&lt;/b>&amp;nbsp;&lt;b>Kgs&lt;/b> is applicable per person&amp;nbsp;({baggageAllowanceCount} piece | {checkinLimitPerPiece} kg each), basis the sector. At the airport, INR 2000 per piece will be chargeable. Additional charges may apply for excess weight and extra piece.&amp;nbsp;&lt;a href=\&#34;/content/indigo/in/en/add-on-services/excess-baggage.html\&#34;>click here&lt;/a>&amp;nbsp;for the detail.&lt;/li>\n&lt;li>Hand Baggage Allowance:&amp;nbsp;&lt;b>{handBaggageAllowanceCount}&amp;nbsp;hand bag up to&amp;nbsp;{handBaggageAllowance} Kgs and 115 cms (L+W+H), shall be allowed per customer.&lt;/b>&amp;nbsp;For contactless travel we recommend to place it under the seat in front, on board.&lt;br>\n&lt;/li>\n&lt;li>For&amp;nbsp;Charter bookings,&amp;nbsp;check-in baggage allowance for DEL-EVN will be 25 Kgs, for BOM-EVN it will be 20 Kgs, for COK-EVN it will be 15 Kgs and for DMM-LKO it will be 40 Kgs.&lt;/li>\n&lt;li>&lt;b>Track your bag:&lt;/b>&amp;nbsp;We strive to ensure the safe and timely delivery of your baggage upon your arrival to your destination.&amp;nbsp;&lt;br>\n&lt;a href=\&#34;http://www.worldtracer.aero/filedsp/6e.htm?linkNav=6e.htm?linkNav=6e_www.goindigo.in~footer\&#34;>Click here&lt;/a>&amp;nbsp;to track your bag.&lt;br>\n&lt;a href=\&#34;/content/indigo/in/en/baggage.html\&#34;>Click here&lt;/a>&amp;nbsp;for any additional baggage information&lt;/li>\n&lt;li>Refer to Conditions of Carriage for change/cancellation fee and detailed T&amp;amp;Cs.&lt;/li>\n&lt;li>See Fare Rules for detailed T&amp;amp;Cs.&lt;/li>\n&lt;li>Disclaimer:&amp;nbsp;As per Govt. of India rules, passengers are required to undergo quarantine at point of entry. For passengers who may have taken any exemption / permission from the appropriate Government authority in India to connect to a domestic service, the following shall apply: For passenger(s) travelling under Vande Bharat flights operated by airlines other than IndiGo and have a subsequent domestic IndiGo connection, will be subject to IndiGo’s Baggage Allowance policy. Check-in baggage (20kg), per person&amp;nbsp;({baggageAllowanceCount} piece | {checkinLimitPerPiece} kg each) and Hand Baggage – One personal item like a small laptop bag, ladies’ purse, infant bag etc., only if it fits under the seat in front of you.&lt;/li>\n&lt;/ul>\n&#34;,&#34;linkText&#34;:&#34;&#34;,&#34;linkTextPath&#34;:&#34;&#34;},{&#34;iconPath&#34;:&#34;/content/cq:tags/skyplus6e/icons/icon-icServices&#34;,&#34;imagePath&#34;:&#34;&#34;,&#34;iconKey&#34;:&#34;Services&#34;,&#34;iconLabel&#34;:&#34;Services&#34;,&#34;iconText&#34;:&#34;&lt;table cellpadding=\&#34;1\&#34; cellspacing=\&#34;1\&#34; border=\&#34;2\&#34;>\n&lt;tbody>&lt;tr>&lt;td>&amp;nbsp; &amp;nbsp; &amp;nbsp;Name &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/td>\n&lt;td>&amp;nbsp; &amp;nbsp; &amp;nbsp; {} - {}&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/td>\n&lt;/tr>&lt;tr>&lt;td valign=\&#34;top\&#34; style=\&#34;text-align: left;\&#34;>{}&lt;/td>\n&lt;td valign=\&#34;middle\&#34; style=\&#34;text-align: left;\&#34;>Seat: {}&lt;br>\n6E Add-ons: {}&lt;/td>\n&lt;/tr>&lt;/tbody>&lt;/table>\n&lt;p>&amp;nbsp;&lt;/p>\n&#34;,&#34;linkText&#34;:&#34;&#34;,&#34;linkTextPath&#34;:&#34;&#34;},{&#34;iconPath&#34;:&#34;/content/cq:tags/skyplus6e/icons/icon-icTermsConditions&#34;,&#34;imagePath&#34;:&#34;&#34;,&#34;iconKey&#34;:&#34;TermsNConditions&#34;,&#34;iconLabel&#34;:&#34;Terms and Conditions&#34;,&#34;iconText&#34;:&#34;&lt;p>&lt;b>To see our Condition of Carriage please visit:&lt;/b>&amp;nbsp;&lt;a href=\&#34;https://www.goindigo.in/information/conditions-of-carriage.html\&#34; title=\&#34;https://www.goindigo.in/information/conditions-of-carriage.html\&#34;>https://www.goindigo.in/information/conditions-of-carriage.html&lt;/a>&lt;/p>\n&lt;p>&lt;b>Must Read:&lt;/b>&lt;/p>\n&lt;p>Refer Section-3, Series M Part IV of the Civil Aviation Requirements for information on facilities in cases of denied boarding, cancellations, and delays. Details at DGCA website:&amp;nbsp;&lt;a href=\&#34;https://www.dgca.gov.in/digigov-portal/?dynamicPage=dynamicPdf/aGtWQx%2Bu3w%2BiQqtE92zT4g%3D%3D&amp;amp;maincivilAviationRequirements/6/0/viewDynamicRulesReq\&#34;>Home | Directorate General of Civil Aviation | Government of India (dgca.gov.in)&lt;/a>”&lt;/p>\n&lt;p>&lt;b>Free Checked In Baggage Allowance&lt;/b>&amp;nbsp;is 15kg&amp;nbsp;per person, one piece only ( Domestic )&amp;nbsp;( Domestic ) / 30 kg (International, excluding Singapore to/from Tiruchirappalli &amp;amp; Chennai which is 30Kg). Free checked in baggage allowance for travel to Jeddah is 25 kg and from Jeddah is 25 kg + 5L Zamzam water. For travel to and from Abu Dhabi,&amp;nbsp;Colombo, Doha, Dubai, Hong Kong, Istanbul, Kuwait, Muscat, Riyadh, Sharjah and Yangon the checked in baggage allowance is up to 30 kg per adult and child. This allowance does not apply to Infants.&lt;/p>\n&lt;p>&lt;b>For Infants&lt;/b>&amp;nbsp;valid birth certificate is required.&lt;/p>\n&lt;p>&lt;b>Passengers without valid visa&lt;/b>&amp;nbsp;to the arrival destination will not be permitted to board unless visa on arrival is permitted or visa is not required for such passengers as per the laws of the arrival destination.&lt;/p>\n&lt;p>&lt;b>In case of international travel&lt;/b>, nationality of passengers will be verified at the check-in counters at the airport. In the event, the information regarding nationality of passengers provided during purchase of tickets is found to be incorrect, certain additional fees/taxes (mandated by certain governmental bodies/airport operators) may be required to be paid upfront at the check-in counter. In the event of refusal to pay such additional fees/taxes, IndiGo reserves its right to refuse carriage to such passengers in accordance with its Conditions of Carriage.&lt;/p>\n&lt;p>&lt;b>Fog Advisory&lt;/b>&amp;nbsp;Customer satisfaction and hassle free travel are of utmost importance to us.&lt;/p>\n&lt;p>At times, there are circumstances, which are beyond our control like weather related phenomena of fog. This unexpected phenomenon may cause inconvenience to you due to flight delays, rescheduling and cancellations.&lt;/p>\n&lt;p>We appreciate your patience and request for your kind cooperation in these times.&lt;/p>\n&lt;p>We will endeavor to give you proactive information through text messages or emails. However, we would urge you to call our Call Centre or check updates on your flight at 9910383838.&lt;/p>\n&lt;p>Alternatively, to know flight status you can:&lt;/p>\n&lt;p>- Download mobile app.&lt;/p>\n&lt;p>- Visit website –&amp;nbsp;&lt;a href=\&#34;https://www.goindigo.in/\&#34;>www.goindigo.in&lt;/a>&lt;/p>\n&lt;p>- Tweet us @IndiGo6E, follow us on Facebook.&lt;/p>\n&lt;p>- Send SMS, ST[space]flight number[space]departure date of flight as DDMM. For example: to know the status for 6E-333 for 11th February send &amp;quot;ST 333 1102&amp;quot; to 566772.&lt;/p>\n&lt;p>- Live chat on website.&lt;/p>\n&lt;p>General:&lt;/p>\n&lt;p>Check-in at www.goIndiGo.in is available. This service is not available for international travel and customers with infants or groups.&lt;/p>\n&lt;p>Changes/cancellations are permitted more than three (3) hours prior to scheduled departure and (four (4) hours for international sectors) with payment of change/cancellation fee and difference in fare if applicable.&lt;/p>\n&lt;p>A security search is compulsory.&lt;/p>\n&lt;p>A valid photo id, in original, is required for each person travelling. For foreign nationals, only passport, in original, will be considered as a valid photo id. For detailed terms and conditions, log on to www.goIndiGo.in&lt;/p>\n&lt;p>Check Your Flight Timings: To know the flight status on the day of departure, contact our 24 X 7 call centre departure, contact our 24 X 7 call centre or logon to our website or mobile app (available on iPhone, Windows, Android and Blackberry), or send an sms to 566772 in the following format: &amp;quot;ST[space]3 digit flight number[space]departure date of flight as ddmm&amp;quot;. For example: to know the status for 6E-333 for 11th February send &amp;quot;ST 333 1102&amp;quot; to 566772.&lt;/p>\n&lt;p>Indian Nationals travelling to and from Kathmandu are required to carry either Passport or Voter’s Id Card only as their valid photo Id, no other photo Id will be considered as valid.&lt;/p>\n&lt;p>Airfare Charges include Base Fare, Fuel Charge, CUTE Charge and Agency Commission payable to travel agents (if applicable).&lt;/p>\n&lt;p>Passengers going to UAE/ Oman from India on tourist/ employment visas require an &#39;OK TO BOARD&#39; comment in their PNR. Please check with your visa issuing agency.&lt;/p>\n&lt;p>Name changes are not permitted on your booking.&lt;/p>\n&lt;p>Hot and cold food and beverages as shown in the Food and Beverage Menu may be purchased on board, subject to their availability. For ATRs and flights below 60 minutes flying time hot food or beverages will not be offered. On select flights below 30 minutes flying time only limited snacks (cookies and nuts) and water will be offered.&lt;/p>\n&lt;p>LED / LCD TVs of more than 99.06 cm in size will be charged. Refer to www.goIndiGo.in.&lt;/p>\n&lt;p>This booking is governed by IndiGo&#39;s fare rules and Conditions of Carriage that are available from Airport Counters, IndiGo Shops or www.goIndiGo.in&lt;/p>\n&lt;p>Flight schedules are subject to change and approval by authorities.&lt;/p>\n&lt;p>IndiGo reserves the right to deny boarding if credit card information is not supplied at check-in.&lt;/p>\n&lt;p>Hot Food and Beverages shall not be served on short sector flights.&lt;/p>\n&lt;p>Damaged, defective or recalled lithium batteries are prohibited from carriage by air. Customers are advised not to carry older generation Apple MacBook Pro laptops with 15 inch screen, purchased between September 2015 and February 2017 in hand baggage as well as in check-in baggage. In case the battery of such laptop is replaced, kindly carry the receipt of replacement provided by Apple, in absence of which carriage of such laptop shall be prohibited.&amp;nbsp;For more information please visit Apple Support website.&lt;/p>\n&#34;,&#34;linkText&#34;:&#34;&#34;,&#34;linkTextPath&#34;:&#34;&#34;},{&#34;iconPath&#34;:&#34;/content/cq:tags/skyplus6e/icons/icon-icTerminal-Information&#34;,&#34;imagePath&#34;:&#34;&#34;,&#34;iconKey&#34;:&#34;TerminalInformation&#34;,&#34;iconLabel&#34;:&#34;Terminal Information&#34;,&#34;iconText&#34;:&#34;&lt;ul>\n&lt;li>&lt;b>International Terminal Information:&lt;/b>&amp;nbsp;For international flights, IndiGo will operate from the following terminals airports:&amp;nbsp;&lt;b>New&lt;/b>&amp;nbsp;&lt;b>Delhi&lt;/b>&amp;nbsp;- Terminal 3, IGIA;&amp;nbsp;&lt;b>Mumbai&lt;/b>&amp;nbsp;- International Terminal, CSIA;&amp;nbsp;&lt;b>Dubai&lt;/b>&amp;nbsp;- Terminal 1, Dubai International Airport;&amp;nbsp;&lt;b>Bangkok&lt;/b>&amp;nbsp;- Suv arnabhumi Airport;&amp;nbsp;&lt;b>Singapore&lt;/b>&amp;nbsp;- Terminal 2, Changi Airport;&amp;nbsp;&lt;b>Kathmandu&lt;/b>&amp;nbsp;- Tribuv an International Airport;&amp;nbsp;&lt;b>Muscat&lt;/b>&amp;nbsp;- Muscat International Airport.&amp;nbsp;&lt;b>Chennai&lt;/b>&amp;nbsp;- International Terminal, Chennai International Airport;&amp;nbsp;&lt;b>Hyderabad&lt;/b>&amp;nbsp;- International Terminal, RGIA;&amp;nbsp;&lt;b>Kolkata&lt;/b>&amp;nbsp;- Terminal II, Kolkata International Airport;&amp;nbsp;&lt;b>Kochi&lt;/b>&amp;nbsp;- International Terminal, Kochi International Airport and&amp;nbsp;&lt;b>Thiruvananthapuram&lt;/b>&amp;nbsp;- International Terminal, Thiruvananthapuram.&lt;/li>\n&lt;li>IndiGo flights from Delhi to Singapore will depart from Terminal 3. In case a passenger is arriving into Delhi from a country other than India and is further booked on domestic flights departing from Terminal 1 or 2,he/she must make their own visa arrangements for transit to other airport terminals in Delhi. (i.e. from Terminal 3 to Terminal 1D or Terminal 2).&lt;/li>\n&lt;li>&lt;b>Domestic Terminal Information: Thiruvananthapuram&lt;/b>&amp;nbsp;- Effective 01&amp;nbsp;st&amp;nbsp;Mar 2016, IndiGo operations for flight no. 6E-103 (Pune/Bengaluru to Thiruvananthapuram) and 6E-408 (Thiruvananthapuram to Bengaluru/Pune) will be carried out of the International Terminal (TB-2), Chakkai, Thiruvananthapuram -695024.&amp;nbsp;&lt;b>Chandigarh&lt;/b>&amp;nbsp;- New Civil Air Terminal.&lt;/li>\n&lt;/ul>\n&#34;,&#34;linkText&#34;:&#34;&#34;,&#34;linkTextPath&#34;:&#34;&#34;},{&#34;iconPath&#34;:&#34;/content/cq:tags/skyplus6e/icons/icon-cancellation-policy&#34;,&#34;imagePath&#34;:&#34;&#34;,&#34;iconKey&#34;:&#34;CancelledFlightInfo&#34;,&#34;iconLabel&#34;:&#34;Cancelled/Delayed Flight Information&#34;,&#34;iconText&#34;:&#34;&lt;ul>\n&lt;li>At any time after a Booking has been made, we may change our schedules and/or cancel, terminate, divert, postpone, reschedule or delay any flight where we reasonably consider this to be justified by circumstances beyond our control, or for reasons of safety, or for commercial reasons. Circumstances beyond IndiGo&#39;s control can include, without limitation, weather, air traffic control, mechanical failures, acts of terrorism, acts of nature, force majeure, strikes, riots, wars, hostilities, disturbances, governmental regulations, orders, demands or requirements, shortages of critical manpower, parts or materials, labour unrest etc. If an IndiGo flight is cancelled, rescheduled or delayed for more than three hours (depending on the length of the journey), a Customer shall have the right to choose a refund; or a credit for future travel on IndiGo; or re-booking onto an alternative IndiGo flight at no additional cost (subject to availability); subject to the requirements under the local laws of the country in which the flight has been cancelled, rescheduled or delayed.&lt;/li>\n&lt;li>In the special case where a subsequent portion of an IndiGo flight is cancelled while a Customer is already in transit, such a Customer shall have the right to choose to remain at the transit station and to be re-booked onto an alternative IndiGo flight to the final destination at no additional cost subject to availability; or to remain at the transit station and accept a partial refund for the portion of the flight not completed; or to return to the point of origin and receive a refund; or a credit for future travel on IndiGo; or re-booking onto an alternative IndiGo flight at no additional cost subject to availability. We strongly recommend all Customers to provide correct phone numbers and email address, to enable us to inform them of flight delays or cancellations in unforeseen cases. We may contact you via email, SMS, phone and Whatsapp with respect to your booking. Customers who have not provided valid contact information at the time of Booking may not be entitled for any compensation. Contact our call centre (0) 99 10 38 38 38 or +91 124 6613838 if you have any queries.&lt;/li>\n&lt;li>Online Group fares - Domestic - 100% of the airfare per person per segment will be levied if changed/cancelled at least 3hrs before the scheduled departure. No-show charges will be levied within 3 hrs. Fare difference, change/cancellation fee apply.&lt;/li>\n&lt;li>Online Group fares – International - 100% of airfare per person per segment will be levied if changed/cancelled at least 4hrs before the scheduled departure. No-show charges will be levied within 4 hrs. Fare difference and change fee apply.&lt;/li>\n&lt;li>&lt;b>Disclaimer&lt;/b>:&amp;nbsp;Please note in case of Vande Bharat Flights, 100% of Airline component will be forfeited. Non-Airline taxes will be refunded in full.&lt;/li>\n&lt;/ul>\n&#34;,&#34;linkText&#34;:&#34;&#34;,&#34;linkTextPath&#34;:&#34;&#34;}],&#34;bannerBottomLink&#34;:&#34;&#34;,&#34;bannerBottomImage&#34;:&#34;&#34;,&#34;bannerBottomImageMobile&#34;:&#34;&#34;,&#34;bannerBottomAltText&#34;:&#34;Boarding Pass&#34;,&#34;gstInformationLabel&#34;:&#34;GST Information&#34;,&#34;gstCompanyNameLabel&#34;:&#34;GST Company Name&#34;,&#34;gstNumber&#34;:&#34;GST Number&#34;,&#34;iframe&#34;:&#34;https://www.booking.com/_df71be797069d038?fid=1677131534787&amp;&amp;checkin=2023-02-24&amp;amp;checkout=2023-02-24&amp;amp;iata=DEL&amp;amp;iata_orr=1;&amp;dsize=100%,100%&amp;dtpncy=false&amp;dtsize=&amp;dmsize=&#34;,&#34;placeholder&#34;:&#34;&#34;,&#34;noShowNote&#34;:&#34;Passenger(s) in this PNR is No Show. To claim the tax refund please &#34;,&#34;clickHereLabel&#34;:&#34;Click Here&#34;,&#34;refundRequestSubmittedAgent&#34;:&#34;Thank you for submitting the request. Refund of $amount is processed in your travel agency&#39;s account. Please contact them for more information.&#34;,&#34;refundRequestSubmittedCustomer&#34;:&#34;Thank you for submitting the request. Refund of $amount is processed and amount will reflect in the original form of payment in next 5-7 working days.&#34;,&#34;refundClaimedAgent&#34;:&#34;The refund amount for this booking has already been claimed! Please contact your travel agency.&#34;,&#34;refundClaimedCustomer&#34;:&#34;The refund amount for this booking has already been claimed! Generally it take 5-7 working days for amount to reflect in your account. Kindly check your account, for more information call us at our call center or chat with us.&#34;,&#34;pnrIsMoreThanOneYearOld&#34;:&#34;This PNR is more than 360 days old and cannot be processed. For more information call our call centre or chat with us.&#34;,&#34;restrictedFop&#34;:&#34;Online refund option is unavailable for this booking. For more information, kindly contact our call centre or chat with us.&#34;,&#34;otherFopDoesNotHaveSufficientAmount&#34;:&#34;Online refund option is unavailable for this booking. For more information, kindly contact our call centre or chat with us.&#34;,&#34;firstFopRestricted&#34;:&#34;Online refund option is unavailable for this booking. For more information, kindly contact our call centre or chat with us.&#34;,&#34;refundAlreadyProcessed&#34;:&#34;Your refund request for $amount is in process and you will be intimated about the status within 3 weeks of initiation request via SMS on your mobile number provided with this booking. We appreciate your patience in this regard.&#34;,&#34;connectingNoShow&#34;:&#34;Refund option is unavailable as you have already completed the partial journey.&#34;}" data-page-type="itinerary">
+</div></div>
+<div class="separator cmp-separator--dark cmp-separator--space-small aem-GridColumn aem-GridColumn--default--12">
+<div id="separator-710f89c32d" class="cmp-separator">
+    <hr class="cmp-separator__horizontal-rule"/>
+</div></div>
+<div class="imagevideo aem-GridColumn aem-GridColumn--default--12">
+
+
+	
+	<div class="carousel-image" aria-label="Image">
+		<div data-cmp-data-layer="" class="cmp-image carousel-image--desktop cq-dd-image" itemscope="" itemtype="http://schema.org/ImageObject">
+			<a href="https://www.goindigo.in/hotels?linkNav=Hotels%7C2%7Cflight_itinerary_page" target="_blank">
+				<img src="/content/dam/skyplus6e/in/en/assets/booking/itinerary/images/Itinerary_Web_H.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" alt="Take off. land Check in"/>
+			</a>
+		</div>
+		<div data-cmp-data-layer="" class="cmp-image carousel-image--mob cq-dd-image" itemscope="" itemtype="http://schema.org/ImageObject">
+			<a href="https://www.goindigo.in/hotels?linkNav=Hotels%7C2%7Cflight_itinerary_page" target="_blank">
+				 <img src="/content/dam/skyplus6e/in/en/assets/booking/itinerary/images/Itinerary_mWeb_H.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" alt="Take off. land Check in"/>
+			</a>
+		</div>
+	</div>
+	
+	
+
+
+    
+
+</div>
+<div class="servicescarousel aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+
+
+<div class="container container-mob promotionComp6E cmp-promotions6ECarousel" data-component="services-carousel" data-cmp-is="promotions6ECarousel">
+	
+	<div class="promotionComp6E__offers-wrapper">
+		<!--Common Heading block-->
+		<div class="row component-heading">
+			<div class="col-md-9 col-7 col-sm-8">
+				<h2 class="heading-h2">6E Addons</h2>
+			</div>
+			<div class="col-md-3 col-5 col-sm-8 view-link-wrapper">
+				<a target="_self" class="component-heading--view-link"></a>
+			</div>
+		</div>
+
+		
+
+		
+		<div class="promotional-slide">
+			<div class="ig-horizontal-slide-mobile promotional-slide--carosuel" id="promotional-getTeaser">
+				
+				<div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive">
+					<a href="/content/dam/skyplus6e/in/en/assets/booking/itinerary/documents/6E-Tiffin.pdf?linkNav=6E%20Eats%20-%20In-flight%20Menu%7C1%7C6E%20Addons" target="_blank" class="promotional-slide--redirection"> <!-- Get Inspired component section-->
+						<div class="get-inspired-carausel">
+							<div class="get-inspired-carausel--picture">
+								<img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/indigov2/6e-website/thumnail/6E-Eats-itineary.png" alt="6E-tiffin" title="6E-tiffin" loading="lazy"/>
+							</div>
+							<div class="get-inspired-carausel--description">
+								<h6 class="get-inspired-carausel--title">6E Eats - In-flight Menu</h6>
+								<div class="get-inspired-carausel--subtitle"><p>Scan the QR code to download our inflight 6E Eats menu.</p>
+</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive">
+					<a href="https://airsewa.gov.in/home?linkNav=home_www.goindigo.in~view~service-listing~1" target="_blank" class="promotional-slide--redirection"> <!-- Get Inspired component section-->
+						<div class="get-inspired-carausel">
+							<div class="get-inspired-carausel--picture">
+								<img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/booking/itinerary/images/SplitBanner-itinerary(air-sewa).jpg" alt="splitBanner-itinerary" title="splitBanner-itinerary" loading="lazy"/>
+							</div>
+							<div class="get-inspired-carausel--description">
+								<h6 class="get-inspired-carausel--title">Air Sewa</h6>
+								<div class="get-inspired-carausel--subtitle"><p>Scan the QR code to know more</p>
+</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive">
+					<a href="https://6eholidays.makemytrip.com/holidays-india/?linkNav=home_www.goindigo.in~view~service-listing~1" target="_blank" class="promotional-slide--redirection"> <!-- Get Inspired component section-->
+						<div class="get-inspired-carausel">
+							<div class="get-inspired-carausel--picture">
+								<img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/booking/itinerary/images/Website-Itinerary-6E-Holidays.jpg" alt="Website-itinerary-6E-holidays" title="Website-itinerary-6E-holidays" loading="lazy"/>
+							</div>
+							<div class="get-inspired-carausel--description">
+								<h6 class="get-inspired-carausel--title">6E Holidays</h6>
+								<div class="get-inspired-carausel--subtitle"><p>Book a fully curated trip with 6E Holidays.</p>
+</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+
+		
+
+
+	</div>
+	
+	
+</div></div>
+<footer class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-experiencefragment cmp-experiencefragment--6E-Services"><!-- SDI include (path: /content/experience-fragments/skyplus6e/in/en/6E-Services/master/_jcr_content.content.sharedcontent.html, resourceType: skyplus6e/components/structure/xfpage) -->
+
+
+
+    
+    <div id="container-8863405c33" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="servicescarousel aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+
+
+<div class="container container-mob promotionComp6E cmp-promotions6ECarousel" data-component="services-carousel" data-cmp-is="promotions6ECarousel">
+	
+	
+	<div class="promotionComp6E__service6E-wrapper">
+        <div class="row component-heading">
+            <div class="col-md-9 col-7 col-sm-8">
+                <h2 class="heading-h2">6E Services</h2>
+            </div>
+        </div>
+        <div class="investorrelationfinancetabs">
+            <div class="common-tabs">
+                <ul class="nav nav-tabs" role="tablist">
+                
+                    <li class="nav-item" role="presentation">
+                    	<div class="col-md-3 col-5 col-sm-8 view-link-wrapper d-none">
+			                <a href="/add-on-services.html?linkNav=View%20All%7CFood%20%26%20Beverage%7C6E%20Services" target="_self" class="component-heading--view-link">View All</a>
+		            	</div>
+                        <a class="nav-link" data-toggle="tab" id="tab-details--0" href="#tab-details--0" role="tab" aria-controls="tab-details--0" aria-selected="true">Food &amp; Beverage</a>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                    	<div class="col-md-3 col-5 col-sm-8 view-link-wrapper d-none">
+			                <a href="/add-on-services.html?linkNav=View%20All%7CBaggage%7C6E%20Services" target="_blank" class="component-heading--view-link">View All</a>
+		            	</div>
+                        <a class="nav-link" data-toggle="tab" id="tab-details--1" href="#tab-details--1" role="tab" aria-controls="tab-details--1" aria-selected="true">Baggage</a>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                    	<div class="col-md-3 col-5 col-sm-8 view-link-wrapper d-none">
+			                <a href="/add-on-services.html?linkNav=View%20All%7CCombo%7C6E%20Services" target="_blank" class="component-heading--view-link">View All</a>
+		            	</div>
+                        <a class="nav-link" data-toggle="tab" id="tab-details--2" href="#tab-details--2" role="tab" aria-controls="tab-details--2" aria-selected="true">Combo</a>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                    	<div class="col-md-3 col-5 col-sm-8 view-link-wrapper d-none">
+			                <a href="/add-on-services.html?linkNav=View%20All%7CAirport%20Services%7C6E%20Services" target="_blank" class="component-heading--view-link">View All</a>
+		            	</div>
+                        <a class="nav-link" data-toggle="tab" id="tab-details--3" href="#tab-details--3" role="tab" aria-controls="tab-details--3" aria-selected="true">Airport Services</a>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                    	<div class="col-md-3 col-5 col-sm-8 view-link-wrapper d-none">
+			                <a href="/add-on-services.html?linkNav=View%20All%7CTrip%20Assurance%7C6E%20Services" target="_self" class="component-heading--view-link">View All</a>
+		            	</div>
+                        <a class="nav-link" data-toggle="tab" id="tab-details--4" href="#tab-details--4" role="tab" aria-controls="tab-details--4" aria-selected="true">Trip Assurance</a>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                    	<div class="col-md-3 col-5 col-sm-8 view-link-wrapper d-none">
+			                <a href="/add-on-services.html?linkNav=View%20All%7CDiscover%20More%7C6E%20Services" target="_blank" class="component-heading--view-link">View All</a>
+		            	</div>
+                        <a class="nav-link" data-toggle="tab" id="tab-details--5" href="#tab-details--5" role="tab" aria-controls="tab-details--5" aria-selected="true">Discover More</a>
+                    </li>
+                
+                </ul>
+            </div>
+        </div>
+        
+        <div class="tab-content service6E_tabContent">
+        
+            <div class="tab-pane fade active show" id="tab-details--0" role="tabpanel" aria-labelledby="tab-details--0">
+                <div class="promotional-slide">
+                
+                    <div class="ig-horizontal-slide-mobile promotional-slide--carosuel" id="service6e--0">
+                     
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/add-on-services/food-menu.html?linkNav=6E%20Eats_Food%20%26%20Beverage%7C1%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/6E-Eats.png" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/6E-Eats.png" alt="6E Eats" title="6E Eats" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">6E Eats</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Delectable preparations now on-board. Bookings open.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/add-on-services/6e-bar.html?linkNav=One%20for%20the%20skies_Food%20%26%20Beverage%7C2%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/One-for-the-skies.png" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/One-for-the-skies.png" alt="One for the skies" title="One for the skies" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">One for the skies</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Pre-book your favourite alcoholic beverage.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+          
+            <div class="tab-pane fade hide" id="tab-details--1" role="tabpanel" aria-labelledby="tab-details--1">
+                <div class="promotional-slide">
+                
+                    <div class="ig-horizontal-slide-mobile promotional-slide--carosuel" id="service6e--1">
+                     
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/add-on-services/excess-baggage.html?linkNav=Excess%20Baggage%2F%20Additional%20Piece_Baggage%7C1%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Excess-Baggage.png" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Excess-Baggage.png" alt="Excess Baggage/ Additional Piece" title="Excess Baggage/ Additional Piece" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">Excess Baggage/ Additional Piece</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Pre-book any excess check-in baggage and save up to 20%.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/add-on-services/delayed-and-lost-baggage-protection.html?linkNav=Delayed%20%26%20Lost%20Baggage%20Protection_Baggage%7C2%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Delayed-Lost-Baggage-Protection.png" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Delayed-Lost-Baggage-Protection.png" alt="Delayed &amp; Lost Baggage Protection" title="Delayed &amp; Lost Baggage Protection" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">Delayed &amp; Lost Baggage Protection</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Get compensated if your checked-in baggage is delayed, or lost.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/add-on-services/sports-equipment-handling-fees-old.html?linkNav=Sports%20Equipment_Baggage%7C3%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Sports-equipment.png" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Sports-equipment.png" alt="Sports Equipment" title="Sports Equipment" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">Sports Equipment</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Pre-book your sports equipment to enjoy a clean sweep journey.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="https://www.6ebagport.carterporter.in/?linkNav=carter-porter_6e-Services~Baggage~4" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Carter-porter.jpg" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Carter-porter.jpg" alt="Carter Porter" title="Carter Porter" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">Carter Porter</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Enjoy convenient doorstep baggage tranfers from departure to arrival.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+          
+            <div class="tab-pane fade hide" id="tab-details--2" role="tabpanel" aria-labelledby="tab-details--2">
+                <div class="promotional-slide">
+                
+                    <div class="ig-horizontal-slide-mobile promotional-slide--carosuel" id="service6e--2">
+                     
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/add-on-services/6e-prime.html?linkNav=6E%20Prime_Combo%7C1%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/6E-Prime.jpg" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/6E-Prime.jpg" alt="6E Prime" title="6E Prime" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">6E Prime</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Get a preferred seat, snack combo, priority check-in and anytime boarding – all in one.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/add-on-services/6e-seat-and-eat.html?linkNav=6E%20Seat%20%26%20Eat_Combo%7C2%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/6E-Seat-Eat.png" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/6E-Seat-Eat.png" alt="6E Seat &amp; Eat" title="6E Seat &amp; Eat" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">6E Seat &amp; Eat</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Get your preferred seat, and a snack combo on your next flight.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/add-on-services/blanket-pillow-eye-shade.html?linkNav=Blanket%2C%20Eye%20Shade%20Etc._Combo%7C3%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/Sleeping-Kit.jpeg" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/Sleeping-Kit.jpeg" alt="Blanket, Eye Shade Etc." title="Blanket, Eye Shade Etc." loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">Blanket, Eye Shade Etc.</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Get a blanket, pillow, eyeshade and dental kit for a comfortable international flight. </p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+          
+            <div class="tab-pane fade hide" id="tab-details--3" role="tabpanel" aria-labelledby="tab-details--3">
+                <div class="promotional-slide">
+                
+                    <div class="ig-horizontal-slide-mobile promotional-slide--carosuel" id="service6e--3">
+                     
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/add-on-services/fast-forward.html?linkNav=Fast%20Forward_Airport%20Services%7C1%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Fast-forward.jpg" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Fast-forward.jpg" alt="Fast Forward" title="Fast Forward" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">Fast Forward</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Enjoy a hassle-free airport experience with priority check-in and anytime boarding.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/add-on-services/lounge.html?linkNav=Lounge%20Services_Airport%20Services%7C2%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Lounge-Services.jpg" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Lounge-Services.jpg" alt="Lounge Services" title="Lounge Services" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">Lounge Services</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Relax and unwind at our partner lounges.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+          
+            <div class="tab-pane fade hide" id="tab-details--4" role="tabpanel" aria-labelledby="tab-details--4">
+                <div class="promotional-slide">
+                
+                    <div class="ig-horizontal-slide-mobile promotional-slide--carosuel" id="service6e--4">
+                     
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/add-on-services/travel-assistance.html?linkNav=Travel%20Assistance_Trip%20Assurance%7C1%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Travel-Assistance.png" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Travel-Assistance.png" alt="Travel Assistance" title="Travel Assistance" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">Travel Assistance</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Stay protected with travel and medical insurance, as well as roadside assistance. </p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/add-on-services/free-cancellation-insurance.html?linkNav=Cancellation%20Assistance_Trip%20Assurance%7C2%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Cancellation-Assistance.jpg" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/6e-service/Cancellation-Assistance.jpg" alt="Cancellation Assistance" title="Cancellation Assistance" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">Cancellation Assistance</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Cancel your booking conveniently, and fly hassle-free.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+          
+            <div class="tab-pane fade hide" id="tab-details--5" role="tabpanel" aria-labelledby="tab-details--5">
+                <div class="promotional-slide">
+                
+                    <div class="ig-horizontal-slide-mobile promotional-slide--carosuel" id="service6e--5">
+                     
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/information/international-travel-guidelines.html?linkNav=International%20travel%20guidelines_Discover%20More%7C1%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/International-Travel.jpeg" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/International-Travel.jpeg" alt="International travel guidelines" title="International travel guidelines" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">International travel guidelines</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Check the guidelines for your international destination.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/plan-b.html?linkNav=Plan%20B_Discover%20More%7C2%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/Plan-B.jpeg" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/Plan-B.jpeg" alt="Plan B" title="Plan B" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">Plan B</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Cancel, or reschedule your flight for no cost, if it's modified at our end.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-4 promotional-slide--carosuel--item promotional-slide-responsive"> 
+                            <a href="/information/credit-shell.html?linkNav=Credit%20shell_Discover%20More%7C3%7C6E%20Services" target="_blank" class="promotional-slide--redirection">
+                                <div class="get-inspired-carausel">
+                                    <div class="get-inspired-carausel--picture">
+                                        <img class="get-inspired-carausel--image bckgrd-effect lazyloaded" src="/content/dam/skyplus6e/in/en/assets/homepage/images/Credit-Shell.jpeg" data-src="/content/dam/skyplus6e/in/en/assets/homepage/images/Credit-Shell.jpeg" alt="Credit shell" title="Credit shell" loading="lazy" width="236" height="190"/>
+                                    </div>
+                                    <div class="get-inspired-carausel--description">
+                                        <h6 class="get-inspired-carausel--title">Credit shell</h6>
+                                        <div class="get-inspired-carausel--subtitle"><p>Use your IndiGo balance amount to book another flight, or a 6E Service.</p>
+</div>
+                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+          
+        </div>
+    </div>
+	
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</footer>
+<div class="indigofeedback bg-white aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+
+
+<div class="stats-ig-wrapper services-box icon-left" data-component="indigo-feedback-stats">
+  <div class="d-flex justify-content-between align-items-center">
+    
+      <div class="wrapper-flight-blocks text-center ">
+        <i class="icon-call"></i>
+        <div class="content">
+          <span class="heading">Call us</span>
+          <span class="sub-heading"><a>We’re just a ring away.
+</a>
+</span>
+          
+            <a class="view-text" href="javascript:void(0);">View Number</a>
+            <div class="view-text-content">India : <a href="tel:0124-6173838">0124-6173838</a>, <a href="tel:0124-4973838">0124-4973838</a><br />
+China : <a href="tel:%20+86-2022503838">+86-2022503838</a>
+</div>
+          
+        </div>
+        
+      </div>
+    
+      <div class="wrapper-flight-blocks text-center ">
+        <i class="icon-Feedback"></i>
+        <div class="content">
+          <span class="heading">Feedback</span>
+          <span class="sub-heading"><a href="/contact-us/feedback.html">Have a compliment or complaint?</a>
+</span>
+          
+        </div>
+        
+      </div>
+    
+      <div class="wrapper-flight-blocks text-center ">
+        <i class="icon-sms"></i>
+        <div class="content">
+          <span class="heading">Chat with us</span>
+          <span class="sub-heading"><a> 
+Questions? We are here to help.
+ 
+</a>
+</span>
+          
+        </div>
+        
+      </div>
+    
+  </div>
+</div></div>
+<div class="separator cmp-separator--dark cmp-separator--space-small aem-GridColumn aem-GridColumn--default--12">
+<div id="separator-36ddd26d9d" class="cmp-separator">
+    <hr class="cmp-separator__horizontal-rule"/>
+</div></div>
+<footer class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-experiencefragment cmp-experiencefragment--Indigo-Stats"><!-- SDI include (path: /content/experience-fragments/skyplus6e/in/en/Indigo-Stats/indigo-stats-white/_jcr_content.content.sharedcontent.html, resourceType: skyplus6e/components/structure/xfpage) -->
+
+
+
+    
+    <div id="container-d21fc9fcd1" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="indigostats bg-white aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+
+
+<div class="stats-ig-wrapper" data-component="indigo-stats">
+    <div class="d-flex justify-content-between align-items-center">
+    
+        <div class="wrapper-flight-blocks text-center">
+            <i class="icon-Daily-flight"></i>
+            <span class="stats-no">1900+ Daily flights</span>
+        </div>
+        
+        <div class="wrapper-flight-blocks text-center">
+            <i class="icon-Domestic"></i>
+            <span class="stats-no">80+ Domestic Destinations</span>
+        </div>
+        
+        <div class="wrapper-flight-blocks text-center">
+            <i class="icon-International"></i>
+            <span class="stats-no">30+ International Destinations</span>
+        </div>
+        
+        <div class="wrapper-flight-blocks text-center">
+            <i class="icon-happypax"></i>
+            <span class="stats-no">500 Mn+ happy passengers</span>
+        </div>
+        
+        <div class="wrapper-flight-blocks text-center">
+            <i class="icon-Fleets"></i>
+            <span class="stats-no">300+ Fleet strong</span>
+        </div>
+        
+    </div>
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</footer>
+<footer class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-experiencefragment cmp-experiencefragment--Member"><!-- SDI include (path: /content/experience-fragments/skyplus6e/in/en/footer/Member/copyright-footer/_jcr_content.content.sharedcontent.html, resourceType: skyplus6e/components/structure/xfpage) -->
+
+
+
+    
+    <div id="container-818f9a2295" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="footer aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+
+<div class="skyplus-indigo-global-wrapper-v1">
+
+    <footer class="footer" data-component="footer">
+        <div class="container">
+            
+            
+
+        </div>
+        <div class="footer__copyright">
+            <div class="footer__copyright__content">
+                <i class="icon-sixe-special"></i>
+                <p class="footer__copyright__content__copyright">Ⓒ Copyright 2024 IndiGo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</footer>
+<div class="dynamiccontainer aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+
+
+<style>
+ .placeholder-mf-white .mf-booking-widget- {
+    background-color: #fff;
+ }
+
+ .mf-booking-widget- {
+ height: 100%;
+ background-size: 96% 100%,cover;
+ background-position-x: 9px;
+ background-repeat: no-repeat;
+ }
+ @media screen and (min-width: 769px) {
+ .mf-booking-widget- {
+ margin: 0 16px;
+ background-size: 95% 98%,cover;
+ max-width: 992px;
+ }
+ }
+ @media screen and (min-width: 1024px) {
+ .mf-booking-widget- {
+ margin: 0 auto;
+ background-size: 99% 97%,cover;
+ max-width: 1120px;
+ }
+ }
+ .payment-dynamic-itinerary {
+ background-image: url('');
+ }
+ @media screen and (min-width: 769px) {
+ .payment-dynamic-itinerary {
+ background-image: url('');
+ }
+ }
+ @media screen and (min-width: 1024px) {
+ .payment-dynamic-itinerary {
+ background-image: url('');
+ }
+ }
+</style>
+	
+	
+	
+<div class="payment-dynamic-itinerary" data-component="payment-dynamic" data-mf-id="payment-dynamic" data-mf-data="{&#34;stepLabel&#34;:&#34;&#34;,&#34;title&#34;:&#34;PAYMENT&#34;}" data-page-type="itinerary">
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</main>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+    
+        <!-- Firsthive Tag Manager-->
+<script type="text/javascript">
+var _mtm = _mtm || [];
+_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://ind-aly-1.firsthive.com/js/container_BuUNpIsZ.js'; s.parentNode.insertBefore(g,s);
+var _paq = _paq || [];
+var eventify = function(arr, callback) {
+	arr.push = function(e) {
+	Array.prototype.push.call(arr, e);
+		callback(arr);
+	};
+ };
+eventify(dataLayer, function(updateArr) {
+ var obj = dataLayer[dataLayer.length - 1];
+ _mtm.push(obj);
+});
+
+</script>
+<script>
+if(location.href?.toLowerCase()?.startsWith("https://www.goindigo.in")) {
+  console.log = (str) => {};
+}
+</script>
+ <!--End Firsthive Tag Manager -->
+
+<script>
+function setNewuiCookie() {
+    var path = window.location.pathname;
+if (path === "/" || path.startsWith("/agent.html")|| path.startsWith("/corp-admin.html") || path.startsWith("/corp-user.html")){
+    const newUiAppCookieDate = new Date();
+    newUiAppCookieDate.setTime(newUiAppCookieDate.getTime() + (2*60*60*1000));
+    var appCookieExpires = "expires="+ newUiAppCookieDate.toUTCString();
+    document.cookie = "newui" + "=" + "false" + ";" + appCookieExpires + ";path=/";
+ 
+}
+}
+setNewuiCookie();
+</script>
+
+<script>
+window._loyalty_checkin = {
+  HEALTH_FORM_URL: '/content/skyplus6e/in/en/check-ins/dangerous-goods.html'
+};
+</script>
+    
+    
+        <!-- Appsflyer Script-->
+
+<script> !function(t,e,n,s,a,c,i,o,p){t.AppsFlyerSdkObject=a,t.AF=t.AF||function(){(t.AF.q=t.AF.q||[]).push([Date.now()].concat(Array.prototype.slice.call(arguments)))},t.AF.id=t.AF.id||i,t.AF.plugins={},o=e.createElement(n),p=e.getElementsByTagName(n)[0],o.async=1,o.src="https://websdk.appsflyer.com?"+(c.length>0?"st="+c.split(",").sort().join(",")+"&":"")+(i.length>0?"af_id="+i:""),p.parentNode.insertBefore(o,p)}(window,document,"script",0,"AF","banners",{banners: {key: "1229a6ee-9d6a-414c-9098-00b7af858dcb"}}); AF('banners', 'showBanner') </script>
+
+<!-- End Appsflyer Script-->
+    
+    
+        
+    
+
+</main>
+            
+
+  
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+    
+    <script>
+        (function(winObj){
+            if (window.top.location.href.indexOf('/editor.html') == -1) {
+                winObj["aemGraphqlApiEndpoint"] = "/graphql/execute.json/skyplus6e";
+                winObj["locale"] = "en";
+                winObj["pageType"] = "itinerary";
+                winObj["isDynamicPage"] = true;
+                winObj["persona"] = "";
+                winObj["defaultLoginOpen"] = false;
+                winObj["disableDirectAccess"] = false;
+                winObj["msd"] = {};
+                winObj["msd"]["msLoginApiUrl"] = "https:\/\/api\u002Dprod\u002Dsession\u002Dskyplus6e.goindigo.in";
+                winObj["msd"]["sKey"] = "S9pIpbp4QxCTs98Nzrmy0A==";
+                winObj["msd"]["msBookingApiUrl"] = "";
+                winObj["msd"]["msBookingUserKey"] = "15faf8ddf1e8354e90e54fa098e8b1a8";
+                winObj["msd"]["msLoginUserKey"] = "654a6a3cc4998e498e5c0c8ead072915";
+                winObj["msd"]["paymentPagePath"] = "https:\/\/book.goindigo.in\/Payment\/SessionTransfer?v=2";
+                winObj["msd"]["payNowPagePath"] = "https:\/\/book.goindigo.in\/Booking\/PaymentDeepLinkApp";
+                winObj["msd"]["itineraryPagePath"] = window.location.origin+"\/bookings\/itinerary.html";
+                winObj["msd"]["bridgeDeepLinkPath"] = "https:\/\/book.goindigo.in\/Booking\/SkyplusGenericDeepLinkApp?cid=skyplus";
+                winObj["msd"]["mfLogsUrl"] = "https:\/\/api\u002Dprod\u002Dlogging\u002Dskyplus6e.goindigo.in\/v1\/logging\/error";
+                winObj["msd"]["mfLogsKey"] = "96cce5bb0a05335e8bb18cc5c63c2f0d";
+                winObj["msd"]["enableSlashedPrices"] = false;
+                winObj["msd"]["encryptionKey"] = "b14ca5898a4e4133bbce2ea2315a1916";
+                winObj["msd"]["analyticsEncryptionKey"] = "S51FZfjuzCzb\/L74+n72bWkh6l9mMH5ySEm4MW6fh3I=";
+                winObj["msd"]["fhKey"] = "2chH%;4%pDJMe;^WGe\u002DX8YHlo,izHA;csoroh]9CBQbp";
+                winObj["msd"]["msHotelSearchApiUrl"] = "https:\/\/api\u002Dprod\u002Dagent\u002Dskyplus6e.goindigo.in\/v1\/agent\/gethotels";
+                winObj["msd"]["msHotelSearchApiUrlUserKey"] = "7d0e21c07ba46f9d12a6aa51c97067b3";
+                winObj["msd"]["msHotelBookingConfirmationUrl"] = "\/hotels\/confirmation?bookingref={bookingId}";
+                winObj["msd"]["msBookingDeeplinkApiUrl"] = "https:\/\/api\u002Dprod\u002Ditinerary\u002Dsave\u002Dskyplus6e.goindigo.in\/v1\/booking\/retreivefordeeplink";
+                winObj["msd"]["msBookingDeeplinkUserKey"] = "fccd23993790ce935f1b908fc7e98b12";
+                let configObjFromAEM = "{\x22mf\u002Dlogin\x22:\x22https:\/\/app\u002Dlogin\u002Dprod\u002Dskyplus6e.goindigo.in?v=1\x22}";
+                const parsedObjFromAem = JSON.parse(configObjFromAEM)
+                let microFrontEndAppNames = Object.keys(parsedObjFromAem);
+                /*for(let mfName of microFrontEndAppNames) {
+                   const mfNameKey = mfName.replaceAll('-', '_');
+                   //winObj[mfNameKey] = parsedObjFromAem[mfName]
+                }*/
+                <!--/* temporary until BAU is not removed, using below to identify instance on AA */-->
+                skyinstance="skyplus";
+
+				<!--/* temporary until BAU is not removed, using below to set split on Akamai */-->
+                const appCookieDate = new Date();
+                appCookieDate.setTime(appCookieDate.getTime() + (2*60*60*1000));
+                var appCookieExpires = "expires="+ appCookieDate.toUTCString();
+                document.cookie = "App_Cookie" + "=" + "SkyPlus" + ";" + appCookieExpires + ";path=/";
+            }
+        })(window);
+
+        </script>
+        
+    
+    <script src="https://app-login-prod-skyplus6e.goindigo.in/config/env-config.js?v=1"></script>
+
+    <script src="https://app-login-prod-skyplus6e.goindigo.in/remoteEntry.js?v=1"></script>
+
+    <link rel="stylesheet" href="https://app-static-prod-skyplus6e.goindigo.in/des-system/css/main.css" type="text/css"/>
+    
+  
+
+    
+    
+<script src="/etc.clientlibs/skyplus6e/clientlibs/clientlib-site.min.03f295c7d08c7b67890cbc79e91d79e7.js"></script>
+
+
+
+
+
+
+  <div data-component="common-logic-container"></div>
+  <div data-component="toast-msg-dynamic"></div>
+  <div data-component="main-loader-dynamic"></div>
+  
+
+
+    
+    <script defer src="/etc.clientlibs/skyplus6e/clientlibs/clientlib-base.min.21437dc7c7c135ae68188ee9d25ae733.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    <script type="text/javascript" nonce="06d26cc2f43030c9137026de9dc2edb3" src="/BtZTARNcI/e8T/IMg7IQ/cwhEfz9LXirSmL5u/MngDAQ/MENgb1/ELIBIB"></script><script type="text/javascript" nonce="06d26cc2f43030c9137026de9dc2edb3" src="/BtZTARNcI/e8T/IMg7IQ/cwhEfz9LXi/N1sIAQ/GVhUKz/IxGwJBAQ?v=b2eab34e-36ea-4038-c808-b946d7a8312c" defer></script></body>
+</html>
+

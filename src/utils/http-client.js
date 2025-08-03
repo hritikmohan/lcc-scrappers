@@ -61,7 +61,7 @@ client.interceptors.request.use(
       console.log(`${file} [Cookies Sent] ${cookies.length} cookies`);
       //   cookies.slice(0, 3).forEach((c) => console.log(`- ${c.key}=${c.value}`));
       //   if (cookies.length > 3)
-      //     console.log(`- ...and ${cookies.length - 3} more`);
+      //     console.log(`- ...and ${cookies.length - 3} more`);      
     }
     return config;
   },

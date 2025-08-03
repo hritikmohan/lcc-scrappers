@@ -4,6 +4,7 @@ import { fileURLToPath } from "url";
 import { client } from "../../utils/http-client.js";
 import qs from "querystring";
 import { get, find, startsWith, omit, pick, omitBy } from "lodash-es";
+import { writeFile } from 'fs/promises';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -27,11 +28,11 @@ const getPnrDetails = async (req, res) => {
 
     console.log(`\n${file}===== 2. Retrieving Booking Details =====`);
     const formData = {
-      "indiGoRetrieveBooking.EmailAddress": emailOrLastName,
+      "indiGoRetrieveBooking.EmailAddress": "",
       "indiGoRetrieveBooking.IndiGoRegisteredStrategy":
-        "Nps.IndiGo.Strategies.IndiGoValidatePnrEmailStrategy, Nps.IndiGo",
+        "Nps.IndiGo.Strategies.IndigoValidatePnrContactNameStrategy, Nps.IndiGo",
       "indiGoRetrieveBooking.IsToEmailItinerary": "false",
-      "indiGoRetrieveBooking.LastName": "",
+      "indiGoRetrieveBooking.LastName": emailOrLastName,
       "indiGoRetrieveBooking.RecordLocator": pnr,
       typeSelected: "SearchByPNR",
     };
@@ -41,29 +42,35 @@ const getPnrDetails = async (req, res) => {
       qs.stringify(formData),
       {
         headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-          "User-Agent":
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-          Accept: "application/json",
+          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+          Origin: "https://www.goindigo.in",
           Referer: "https://www.goindigo.in/",
-          "X-Requested-With": "XMLHttpRequest",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+          Accept: "*/*",
+          Connection: "keep-alive",
+          "Sec-Fetch-Dest": "empty",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Site": "same-site",
         },
       }
     );
 
     const { international, plKey } = retrieveData.data.indiGoRetrieveBooking;
-
+    
     console.log(`\n${file}===== 3. Loading Itinerary Page =====`);
-    const itineraryUrl = `https://www.goindigo.in/bookings/itinerary.html?pl=${plKey}`;
+    const itineraryUrl = `https://www.goindigo.in/bookings/itinerary.html?plKey=${plKey}`;
     const itineraryHtml = await client.get(itineraryUrl, {
       headers: {
         "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
         Accept:
-          "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
         Referer: "https://www.goindigo.in/",
       },
     });
+
+    // console.log(itineraryHtml);
+    // await writeFile('response.txt', itineraryHtml.data, 'utf8');
 
     const msLoginUserKey = await extractMsLoginUserKey(itineraryHtml.data);
     const subscriptionKey = await extractSKey(itineraryHtml.data);
@@ -133,7 +140,9 @@ const getPnrDetails = async (req, res) => {
     console.log(`\n${file}[Itinerary API Response]`);
     console.log(`${file}Status:`, itineraryApiResponse.status);
 
-    const finalResponse = await parseFinalTicketResponse(itineraryApiResponse?.data?.data)
+    const finalResponse = await parseFinalTicketResponse(
+      itineraryApiResponse?.data?.data
+    );
 
     res.status(200).json({
       status: 200,
@@ -142,7 +151,6 @@ const getPnrDetails = async (req, res) => {
       data: finalResponse,
     });
 
-    
     console.log(`\n${file}===== All 5 requests completed successfully =====`);
   } catch (error) {
     console.error(`\n${file}[Final Error]`, error.message);
@@ -166,9 +174,11 @@ const getPnrDetails = async (req, res) => {
       console.error(file, "Status:", error.response.status);
       console.error(file, "Response Data:", error.response.data);
     }
-    res
-      .status(500)
-      .json({ status: 500, success: false, error: error.response.data.errors.message });
+    res.status(500).json({
+      status: 500,
+      success: false,
+      error: error.response.data.errors.message,
+    });
   }
 };
 
