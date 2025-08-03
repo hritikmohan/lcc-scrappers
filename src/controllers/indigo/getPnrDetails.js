@@ -4,7 +4,7 @@ import { fileURLToPath } from "url";
 import { client } from "../../utils/http-client.js";
 import qs from "querystring";
 import { get, find, startsWith, omit, pick, omitBy } from "lodash-es";
-import { writeFile } from 'fs/promises';
+import { writeFile } from "fs/promises";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -14,6 +14,9 @@ const getPnrDetails = async (req, res) => {
 
   try {
     const { pnr, emailOrLastName } = req.query;
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const isValidEmail = await emailRegex.test(emailOrLastName);
+    console.log(isValidEmail);
 
     console.log(`\n${file}===== 1. Fetching MyBookings =====`);
     await client.get("https://book.goindigo.in/Member/MyBookingsAEM", {
@@ -28,11 +31,12 @@ const getPnrDetails = async (req, res) => {
 
     console.log(`\n${file}===== 2. Retrieving Booking Details =====`);
     const formData = {
-      "indiGoRetrieveBooking.EmailAddress": "",
-      "indiGoRetrieveBooking.IndiGoRegisteredStrategy":
-        "Nps.IndiGo.Strategies.IndigoValidatePnrContactNameStrategy, Nps.IndiGo",
+      "indiGoRetrieveBooking.EmailAddress": isValidEmail ? emailOrLastName : "",
+      "indiGoRetrieveBooking.IndiGoRegisteredStrategy": isValidEmail
+        ? "Nps.IndiGo.Strategies.IndiGoValidatePnrEmailStrategy, Nps.IndiGo"
+        : "Nps.IndiGo.Strategies.IndigoValidatePnrContactNameStrategy, Nps.IndiGo",
       "indiGoRetrieveBooking.IsToEmailItinerary": "false",
-      "indiGoRetrieveBooking.LastName": emailOrLastName,
+      "indiGoRetrieveBooking.LastName": isValidEmail ? "" : emailOrLastName,
       "indiGoRetrieveBooking.RecordLocator": pnr,
       typeSelected: "SearchByPNR",
     };
@@ -56,15 +60,15 @@ const getPnrDetails = async (req, res) => {
     );
 
     const { international, plKey } = retrieveData.data.indiGoRetrieveBooking;
-    
+
     console.log(`\n${file}===== 3. Loading Itinerary Page =====`);
     const itineraryUrl = `https://www.goindigo.in/bookings/itinerary.html?plKey=${plKey}`;
     const itineraryHtml = await client.get(itineraryUrl, {
       headers: {
         "User-Agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
         Accept:
-        "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+          "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
         Referer: "https://www.goindigo.in/",
       },
     });
